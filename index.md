@@ -21,3 +21,5 @@ In your commit message use the format `:gitmoji: commit message`. Avoid using mu
 |:construction:|`:construction:`| work in progress |
 |:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
 |:memo:|`:memo:`| logging / verbosity / code comments |
+|:fire:|`:fire:`| remove code / file |
+
