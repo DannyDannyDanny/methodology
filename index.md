@@ -9,7 +9,7 @@ To render emoji's view [index via GitHub version](https://github.com/DannyDannyD
 In your commit message use the format `:gitmoji: commit message`. Avoid using multiple gitmojis.
 
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
-Submit an (issue)[https://github.com/DannyDannyDanny/gitmoji/issues] or a PR.
+Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
 
 ## `gitmoji` Lookup
 
