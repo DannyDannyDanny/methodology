@@ -16,6 +16,7 @@ In your commit message use the format `:gitmoji: commit message`. Avoid using mu
 |:goal_net:|`:goal_net:`| try/raise/handle errors or warnings|
 |:zap:|`:zap:`| improve performance|
 |:bug:|`:bug:`| fix this bug| 
+|:truck:|`:truck:`| moving / renaming |
 |:recycle:|`:recycle:`| refactor code |
 |:construction:|`:construction:`| work in progress |
 |:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
