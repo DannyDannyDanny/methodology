@@ -8,6 +8,9 @@ This gitmoji repo is focused on Python Data Processing based software engineerin
 To render emoji's view [index via GitHub version](https://github.com/DannyDannyDanny/gitmoji/blob/gh-pages/index.md).
 In your commit message use the format `:gitmoji: commit message`. Avoid using multiple gitmojis.
 
+Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
+Submit an (issue)[https://github.com/DannyDannyDanny/gitmoji/issues] or a PR.
+
 ## `gitmoji` Lookup
 
 |emoji|code|description|
@@ -20,6 +23,5 @@ In your commit message use the format `:gitmoji: commit message`. Avoid using mu
 |:recycle:|`:recycle:`| refactor code |
 |:construction:|`:construction:`| work in progress |
 |:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
-|:memo:|`:memo:`| logging / verbosity / code comments |
+|:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire:|`:fire:`| remove code / file |
-
