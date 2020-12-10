@@ -1,5 +1,9 @@
 ## Welcome to DannyDannyDanny/gitmoji
 
+<a href="https://gitmoji.carloscuesta.me">
+  <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
+</a>
+
 This gitmoji repo is focused on Python Data Processing based software engineering with a database.
 To render emoji's view [index via GitHub version](https://github.com/DannyDannyDanny/gitmoji/blob/gh-pages/index.md).
 In your commit message use the format `:gitmoji: commit message`. Avoid using multiple gitmojis.
@@ -15,4 +19,3 @@ In your commit message use the format `:gitmoji: commit message`. Avoid using mu
 |:recycle:|`:recycle:`| refactor code |
 |:construction:|`:construction:`| work in progress |
 |:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
-
