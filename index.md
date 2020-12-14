@@ -25,3 +25,4 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
 |:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire:|`:fire:`| remove code / file |
+|:alien:|`:alien:`| API and Database related work |
