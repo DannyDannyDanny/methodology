@@ -26,3 +26,4 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire:|`:fire:`| remove code / file |
 |:alien:|`:alien:`| API and Database related work |
+|:bar_chart:|`:bar_chart:`|Clean / transform / validate _data_|
