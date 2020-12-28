@@ -31,5 +31,6 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
 |:lipstick:|`:lipstick:`| Improve UI / UX, CLI or visualizations|
 
 ## Other methdology
-* [Naming conventios](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
-* [Scrum Glossary](https://www.scruminc.com/scrum-glossary/)
+* Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
+* Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
+* Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
