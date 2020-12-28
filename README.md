@@ -29,3 +29,6 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
 |:alien:|`:alien:`| API and Database related work |
 |:bar_chart:|`:bar_chart:`|Clean / transform / validate _data_|
 |:lipstick:|`:lipstick:`| Improve UI / UX, CLI or visualizations|
+
+## Other methdology
+* [Naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
