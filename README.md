@@ -18,7 +18,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
 |:sparkles:|`:sparkles:`| add new feature / function|
 |:art:|`:art:`| improve readibility / structure and fix flake8 errors |
 |:goal_net:|`:goal_net:`| try/raise/handle errors or warnings|
-|:zap:|`:zap:`| improve performance|
+|:zap:|`:zap:`| improve performance / coverage / profiling |
 |:bug:|`:bug:`| fix this bug|
 |:truck:|`:truck:`| moving / renaming |
 |:recycle:|`:recycle:`| refactor code |
