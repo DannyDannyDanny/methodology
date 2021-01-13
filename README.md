@@ -4,9 +4,8 @@
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
 </a>
 
-This gitmoji repo is focused on Python Data Processing based software engineering with a database.
-To render emoji's view [index via GitHub version](https://github.com/DannyDannyDanny/gitmoji/blob/gh-pages/index.md).
-In your commit message use the format `:gitmoji: commit message`. Avoid using multiple gitmojis.
+This gitmoji repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs).
+In your commit message use the format `:gitmoji: [commit message]`. Only propper nouns, CamelCase and class names should have uppercases letters. Avoid using multiple gitmojis.
 
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
@@ -26,9 +25,9 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
 |:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire:|`:fire:`| remove code / file |
-|:alien:|`:alien:`| API and Database related work |
-|:bar_chart:|`:bar_chart:`|Clean / transform / validate _data_|
-|:lipstick:|`:lipstick:`| Improve UI / UX, CLI or visualizations|
+|:alien:|`:alien:`| changes related to APIs and Databases |
+|:bar_chart:|`:bar_chart:`| clean / transform / validate _data_|
+|:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations|
 
 ## Other methdology
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
