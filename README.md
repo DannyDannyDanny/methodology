@@ -16,7 +16,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
 |emoji|code|description|
 |---|---|---|
 |:sparkles:|`:sparkles:`| add new feature / function|
-|:art:|`:art:`| improve readibility / structure and fix flake8 errors |
+|:art:|`:art:`| improve readibility / structure and lint flake8 |
 |:goal_net:|`:goal_net:`| try/raise/handle errors or warnings|
 |:zap:|`:zap:`| improve performance / coverage / profiling |
 |:bug:|`:bug:`| fix this bug|
