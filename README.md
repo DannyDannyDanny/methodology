@@ -8,7 +8,7 @@ This gitmoji repo is focused on Python Data Processing based projects with som e
 In your commit message use the format `:gitmoji: [commit message]`. Only propper nouns, CamelCase and class names should have uppercases letters. Avoid using multiple gitmojis.
 
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
-Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or PR).
+Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
 
 ## `gitmoji` Lookup
 
