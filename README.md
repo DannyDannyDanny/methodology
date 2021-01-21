@@ -33,3 +33,4 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
 * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
+* Audit [security](https://hangar.tech/posts/our-dsq/)
