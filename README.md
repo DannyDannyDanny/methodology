@@ -34,3 +34,4 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
 * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
 * Audit [security](https://hangar.tech/posts/our-dsq/)
+* Use [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
