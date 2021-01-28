@@ -36,3 +36,5 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
 * Audit [security](https://hangar.tech/posts/our-dsq/)
 * Use [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
+* Use solarized-theme
+  * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
