@@ -28,6 +28,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 |:alien:|`:alien:`| changes related to APIs and Databases |
 |:bar_chart:|`:bar_chart:`| clean / transform / validate _data_|
 |:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations|
+|:pushpin:|`:pushpin:`| Dependency and environment versioning |
 |:see_no_evil:|`:see_no_evil:`| changes to .gitignore and exclusively local files |
 
 ## Other methdology
