@@ -35,7 +35,9 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
 * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
-* Audit [security](https://hangar.tech/posts/our-dsq/)
+* Security
+  * Audit [security](https://hangar.tech/posts/our-dsq/)
+  * Understand [SSH tunnels](https://robotmoon.com/ssh-tunnels/)
 * Use [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 * Use solarized-theme
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
