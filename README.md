@@ -34,6 +34,8 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 ## Other methdology
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
+* Use databases
+  * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
 * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
 * Security
   * Audit [security](https://hangar.tech/posts/our-dsq/)
