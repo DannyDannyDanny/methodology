@@ -1,4 +1,4 @@
-## Welcome to DannyDannyDanny/gitmoji
+## DannyDannyDanny/gitmoji
 
 <a href="https://gitmoji.carloscuesta.me">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
@@ -32,6 +32,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 |:see_no_evil:|`:see_no_evil:`| changes to .gitignore and exclusively local files |
 
 ## Other methdology
+* [Things you should do know](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
 * Use databases
