@@ -12,7 +12,7 @@
 
 
 This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs).
-In your commit message use the format `:gitmoji: [commit message]`. Only propper nouns, CamelCase and class names should have uppercases letters. Avoid using multiple gitmojis.
+In your commit message use the format `:gitmoji: <commit message>`. Only propper nouns, CamelCase and class names should have uppercases letters. Avoid using multiple gitmojis.
 
 ## `gitmoji` Lookup
 
@@ -25,7 +25,7 @@ In your commit message use the format `:gitmoji: [commit message]`. Only propper
 |:bug:|`:bug:`| fix this bug|
 |:truck:|`:truck:`| moving / renaming |
 |:recycle:|`:recycle:`| refactor code |
-|:construction:|`:construction:`| work in progress |
+|:construction: / :boom:|`:construction:`/`:boom:`| work in progress / breaking changes |
 |:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire:|`:fire:`| remove code / file |
