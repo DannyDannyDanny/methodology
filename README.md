@@ -42,6 +42,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 ## Other methdology
 * [Things you should do know](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
+* Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
 * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
 * Use databases
