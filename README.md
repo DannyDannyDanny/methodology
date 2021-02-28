@@ -47,6 +47,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
 * Use databases
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
+  * Be aware of [feature casualties of large databases](https://web.dev/streams/)
 * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
 * Security
   * Audit [security](https://hangar.tech/posts/our-dsq/)
