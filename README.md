@@ -32,8 +32,9 @@ In your commit message use the format `:gitmoji: <commit message>`. Only propper
 |:alien:|`:alien:`| changes related to APIs and Databases |
 |:bar_chart:|`:bar_chart:`| clean / transform / validate _data_|
 |:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations|
-|:pushpin:|`:pushpin:`| Dependency and environment versioning |
+|:pushpin:|`:pushpin:`| dependency and environment versioning |
 |:see_no_evil:|`:see_no_evil:`| changes to .gitignore and exclusively local files |
+|:mag: |`:mag:`| changes in connection with PR-revew change-requests |
 
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
