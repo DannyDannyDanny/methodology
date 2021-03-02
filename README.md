@@ -28,7 +28,7 @@ In your commit message use the format `:gitmoji: <commit message>`. Only propper
 |:construction: / :boom:|`:construction:`/`:boom:`| work in progress / breaking changes |
 |:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
-|:fire:|`:fire:`| remove code / file |
+|:fire: / :coffin:|`:fire:`/`:coffin:`| remove (dead) code / file |
 |:alien:|`:alien:`| changes related to APIs and Databases |
 |:bar_chart:|`:bar_chart:`| clean / transform / validate _data_|
 |:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations|
