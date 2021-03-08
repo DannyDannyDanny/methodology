@@ -5,7 +5,7 @@
 </a>
 
 ## Repo Roadmap
-* [ ] 2021Q1: Gitmoji -> (general) Methodology
+* [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
 * [ ] 2021Q2: Git Methodology -> Branching, Merging and Pull Requests
 * [ ] 2021Q3: Organize other methodology better
 * [ ] 2021Q4: Add collaborators
