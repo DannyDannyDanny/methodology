@@ -19,14 +19,13 @@ In your commit message use the format `:gitmoji: <commit message>`. Only propper
 |emoji|code|description|
 |---|---|---|
 |:sparkles:|`:sparkles:`| add new feature / function|
-|:art:|`:art:`| improve readibility / structure and lint flake8 |
+|:art:|`:art:`| refactor code / improve readibility / structure and lint flake8 |
 |:goal_net:|`:goal_net:`| try/raise/handle errors or warnings|
 |:zap:|`:zap:`| improve performance / coverage / profiling |
 |:bug:|`:bug:`| fix this bug|
 |:truck:|`:truck:`| moving / renaming |
-|:recycle:|`:recycle:`| refactor code |
+|:recycle:|`:recycle:`| writing tests, running tests |
 |:construction: / :boom:|`:construction:`/`:boom:`| work in progress / breaking changes |
-|:white_check_mark:|`:white_check_mark:`| writing tests, running tests |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire: / :coffin:|`:fire:`/`:coffin:`| remove (dead) code / file |
 |:alien:|`:alien:`| changes related to APIs and Databases |
