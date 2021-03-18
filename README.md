@@ -24,7 +24,7 @@ In your commit message use the format `:gitmoji: <commit message>`. Only propper
 |:zap:|`:zap:`| improve performance / coverage / profiling |
 |:bug:|`:bug:`| fix this bug|
 |:truck:|`:truck:`| moving / renaming |
-|:recycle:|`:recycle:`| writing tests, running tests |
+|:recycle:|`:recycle:`| writing automated tests and hooks |
 |:construction: / :boom:|`:construction:`/`:boom:`| work in progress / breaking changes |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire: / :coffin:|`:fire:`/`:coffin:`| remove (dead) code / file |
