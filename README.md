@@ -38,9 +38,14 @@ In your commit message use the format `:gitmoji: <commit message>`. Only propper
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
 
-
 ## Git Branching
 > Coming soon! 🚧
+
+## Repo Badges
+> Coming soon! 🚧
+
+![Coverage badge][coverage-badge]
+[coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
 
 ## Other methdology
 * [Things you should do know](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
