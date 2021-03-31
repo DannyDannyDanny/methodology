@@ -6,7 +6,9 @@
 
 ## Repo Roadmap
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
-* [ ] 2021Q2: Git Methodology -> Branching, Merging and Pull Requests
+* [ ] 2021Q2: Development Methodology 
+  * [ ] Git (Branching, Merging and Pull Requests)
+  * [ ] [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
 * [ ] 2021Q3: Organize other methodology better
 * [ ] 2021Q4: Add collaborators
 
@@ -18,11 +20,11 @@ In your commit message use the format `:gitmoji: <commit message>`. Only propper
 
 |emoji|code|description|
 |---|---|---|
-|:sparkles:|`:sparkles:`| add new feature / function|
+|:sparkles:|`:sparkles:`| add new feature / function |
 |:art:|`:art:`| refactor code / improve readibility / structure and lint flake8 |
 |:goal_net:|`:goal_net:`| try/raise/handle errors or warnings|
 |:zap:|`:zap:`| improve performance / coverage / profiling |
-|:bug:|`:bug:`| fix this bug|
+|:bug:|`:bug:`| fix this bug |
 |:truck:|`:truck:`| moving / renaming |
 |:recycle:|`:recycle:`| writing automated tests and hooks |
 |:construction: / :boom:|`:construction:`/`:boom:`| work in progress / breaking changes |
@@ -48,7 +50,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
 
 ## Other methdology
-* [Things you should do know](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
+* [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
