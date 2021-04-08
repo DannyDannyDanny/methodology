@@ -6,7 +6,8 @@
 
 ## Repo Roadmap
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
-* [ ] 2021Q2: Development Methodology 
+* [ ] 2021Q2: Development Methodology
+  * [x] Oneliner run commands
   * [ ] Git (Branching, Merging and Pull Requests)
   * [ ] [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
 * [ ] 2021Q3: Organize other methodology better
@@ -39,6 +40,16 @@ In your commit message use the format `:gitmoji: <commit message>`. Only propper
 
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
+
+## Oneliner install and run
+The readme must contain a one-liner code that 
+```bash
+git clone https://github.com/user/repo.git cool-user-repo-oneline && cd cool-user-repo-oneline
+pipenv install
+pipenv run python .
+#cd .. && rm -rf cool-user-repo-online
+```
+
 
 ## Git Branching
 > Coming soon! 🚧
