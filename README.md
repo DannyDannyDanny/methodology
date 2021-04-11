@@ -45,7 +45,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 ## Oneliner install and run
 The readme must contain a one-liner code that 
 ```bash
-git clone https://github.com/user/repo.git cool-user-repo-oneline && cd cool-user-repo-oneline
+git clone https://github.com/user/repo.git cool-repo && cd cool-repo
 pipenv install
 pipenv run python .
 #cd .. && rm -rf cool-user-repo-online
@@ -65,6 +65,7 @@ pipenv run python .
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
+* [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
 * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
 * Use databases
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
