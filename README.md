@@ -92,3 +92,4 @@ git push --set-upstream origin feature/sql-and-xml-validation
 * Use [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 * Use solarized-theme
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
+* Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
