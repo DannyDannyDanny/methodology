@@ -54,7 +54,7 @@ pipenv run python .
 ## Git Flows
 > In progress! 🚧
 
-### New Development Flow
+#### New Development Flow
 ```
 # clone repo with local_name enables several clones
 git clone <repo> <local_name>
@@ -66,7 +66,12 @@ git checkout <feature/featurename>
 # switched branch: branch out from 
 git checkout <feature/newfeature>
 git branch <feature/newfeature>
-git push --set-upstream origin feature/sql-and-xml-validation
+git push --set-upstream origin <feature/newfeature>
+```
+
+#### Comparing / Merging two branches
+```
+git merge --no-commit --no-ff <feature/otherfeaturebranch>
 ```
 
 ## Repo Badges
