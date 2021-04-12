@@ -51,8 +51,23 @@ pipenv run python .
 #cd .. && rm -rf cool-user-repo-online
 ```
 
-## Git Branching
-> Coming soon! 🚧
+## Git Flows
+> In progress! 🚧
+
+### New Development Flow
+```
+# clone repo with local_name enables several clones
+git clone <repo> <local_name>
+
+# optional: checkout (i.e switch to) a branch to continue developing from there
+git checkout <feature/featurename>
+
+# optional if you switched branch on the last step
+# switched branch: branch out from 
+git checkout <feature/newfeature>
+git branch <feature/newfeature>
+git push --set-upstream origin feature/sql-and-xml-validation
+```
 
 ## Repo Badges
 > Coming soon! 🚧
