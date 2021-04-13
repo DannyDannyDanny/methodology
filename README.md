@@ -74,6 +74,20 @@ git push --set-upstream origin <feature/newfeature>
 git merge --no-commit --no-ff <feature/otherfeaturebranch>
 ```
 
+#### Submitting multiple PRs
+Context:
+1. submit PR for _feature1_
+2. from _feature1_ branch make new branch _feature2_
+3. commit and push _feature2_ changes
+4. submit PR
+5. Both PRs approved
+
+```
+# there should be one or more flows that account for cases where:
+# -> feature1 gets change requests
+# -> feature1 is rejected and made obsolete
+```
+
 ## Repo Badges
 > Coming soon! 🚧
 
