@@ -18,6 +18,7 @@
 This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs).
 In your commit message use the format `:gitmoji: <commit message>`. Only propper nouns, CamelCase and class names should have uppercases letters. Avoid using multiple gitmojis.
 
+
 ## `gitmoji` Lookup
 
 |emoji|code|description|
@@ -75,6 +76,9 @@ git merge --no-commit --no-ff <feature/otherfeaturebranch>
 ```
 
 #### Submitting multiple PRs
+* [Interactive rebase](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr#comment96514430_35793095)
+* [Rebase & Update PR](https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request)
+
 Context:
 1. submit PR for _feature1_
 2. from _feature1_ branch make new branch _feature2_
