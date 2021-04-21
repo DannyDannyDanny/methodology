@@ -100,6 +100,19 @@ Context:
 
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
 
+## Documentation
+* Use markdown with [Google Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
+* Conceptual graphical documentation as inline embedded images.
+* Save Matplotlib / Seaborn plots as `.svg`.
+* Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
+* Scanned / photographed illustrations should be cropped, contrast and alligned.
+
+|Cons of tables |Pros of tables|
+|--|--|
+| Great splitting information | Painful to format in MD|
+
+
+
 ## Other methdology
 * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
