@@ -114,8 +114,7 @@ Context:
 
 
 ## Other methdology
-* Closed Source Software: If you cannot check what it does / how it works, do not use it. Proprietary products are more prone to backdoors / security holes.
-* It is known that proprietary software (especially closed source software) is less secure (No windows servers).
+* Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
 * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
