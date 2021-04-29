@@ -56,6 +56,11 @@ pipenv run python .
 ## Git Flows
 > In progress! 🚧
 
+The _A-DOG_ acronym
+```sh
+git log --all --decorate --oneline --graph
+```
+
 #### New Development Flow
 ```
 # clone repo with local_name enables several clones
