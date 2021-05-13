@@ -16,7 +16,7 @@
   * [ ] [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
   * [ ] Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
   * [ ] Is [extreme programming](http://www.extremeprogramming.org/) a thing?
-  * [ ] Collaboration (tools: [csvbox](https://csvbox.io/)
+  * [ ] Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
 * 2021Q4
   * [ ] Add sub-pages
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
