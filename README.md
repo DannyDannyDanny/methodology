@@ -8,7 +8,7 @@
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
 * 2021Q2: Development Methodology
   * [x] Oneliner build / install / run / deploy
-  * [ ] Git (Branching, Merging and Pull Requests)
+  * [x] Git (Branching, Merging and Pull Requests)
   * [ ] [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
 * 2021Q3: Decide on sections
   * [ ] Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
