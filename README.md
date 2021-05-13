@@ -6,7 +6,7 @@
 
 ## Repo Roadmap
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
-* 2021Q2: Development Methodology
+* 2021Q2: Version control methodology
   * [x] Oneliner build / install / run / deploy
   * [x] Git (Branching, Merging and Pull Requests)
 * 2021Q3: Decide on sections
