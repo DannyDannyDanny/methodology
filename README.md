@@ -9,10 +9,10 @@
 * 2021Q2: Development Methodology
   * [x] Oneliner build / install / run / deploy
   * [x] Git (Branching, Merging and Pull Requests)
-  * [ ] [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
 * 2021Q3: Decide on sections
   * [ ] Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
   * [ ] Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping. Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
+  * [ ] [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
   * [ ] Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
   * [ ] Is [extreme programming](http://www.extremeprogramming.org/) a thing?
 * 2021Q4
