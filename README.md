@@ -9,6 +9,7 @@
 * 2021Q2: Version control methodology
   * [x] Oneliner build / install / run / deploy
   * [x] Git (Branching, Merging and Pull Requests)
+  * [ ] Default environment via [pipx](https://pypi.org/project/pipx/)
 * 2021Q3: Decide on sections
   * [ ] Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
   * [ ] Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping. Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
