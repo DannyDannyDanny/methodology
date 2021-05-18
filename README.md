@@ -51,6 +51,8 @@ Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
 
 ## Oneliner install and run
+When using git repositories, connect with [ssh](https://stackoverflow.com/a/65415202/5684214).
+
 The README for your project should contain a one-liner code that dowloads, installs and runs a mini-test.
 ```bash
 git clone https://github.com/user/repo.git cool-repo && cd cool-repo
@@ -60,6 +62,7 @@ pipenv run python .
 ```
 
 ## Git Flows
+
 > In progress! 🚧
 
 ```sh
