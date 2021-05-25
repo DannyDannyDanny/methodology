@@ -22,11 +22,12 @@
   * [ ] Add sub-pages
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
 
-This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs).
-In your commit message use the format `:gitmoji: <commit message>`. Only propper nouns, CamelCase and class names should have uppercases letters. Avoid using multiple gitmojis.
 
+This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs). The repo is actively being updated; Leave a star t bookmark it or _Watch_ the repo to get notificatied of updates.
 
-## `gitmoji` Lookup
+## Commit messages and `gitmoji`
+
+Use the format `:gitmoji: <commit message>` in your commit messages. Only proper nouns, CamelCase and class names should have uppercases letters. Avoid using multiple gitmojis.
 
 |emoji|code|description|
 |---|---|---|
@@ -63,7 +64,7 @@ pipenv run python .
 
 ## Git Flows
 
-> In progress! 🚧
+> In progress! 🚧 Use [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)!
 
 ```sh
 git log --all --decorate --oneline --graph
