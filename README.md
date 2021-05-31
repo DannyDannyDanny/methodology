@@ -18,6 +18,7 @@
   * [ ] Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
   * [ ] Is [extreme programming](http://www.extremeprogramming.org/) a thing?
   * [ ] Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
+  * [ ] Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
 * 2021Q4
   * [ ] Add sub-pages
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
