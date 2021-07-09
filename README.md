@@ -6,26 +6,20 @@
 
 ## Repo Roadmap
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
-* 2021Q2: Version control methodology
+* [x] 2021Q2: Version control methodology
   * [x] Oneliner build / install / run / deploy
   * [x] Git (Branching, Merging and Pull Requests)
   * [x] Default environment section 
-* 2021Q3: Decide on sections
-  * [ ] Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
-  * [ ] Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping. Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
-  * [ ] There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
-  * [ ] [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
-  * [ ] [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
-  * [ ] Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
-  * [ ] Is [extreme programming](http://www.extremeprogramming.org/) a thing?
-  * [ ] Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
-  * [ ] Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
+* [ ] 2021Q3: Decide on sections
+  * [ ] Categorize 
 * 2021Q4
   * [ ] Add sub-pages
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
 
 
 This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs). The repo is actively being updated; Leave a start bookmark it or _Watch_ the repo to get notificatied of updates.
+
+# Version control
 
 ## Commit messages and `gitmoji`
 
@@ -152,3 +146,13 @@ Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
 * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
 * [Music for programming](https://www.musicforprogramming.net)
+* [ ] Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+* [ ] Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping. Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
+* [ ] There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
+* [ ] [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
+* [ ] [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
+* [ ] Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
+* [ ] Is [extreme programming](http://www.extremeprogramming.org/) a thing?
+* [ ] Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
+* [ ] Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
+
