@@ -9,7 +9,7 @@
 * 2021Q2: Version control methodology
   * [x] Oneliner build / install / run / deploy
   * [x] Git (Branching, Merging and Pull Requests)
-  * [ ] Default environment via [pipx](https://pypi.org/project/pipx/)
+  * [x] Default environment section 
 * 2021Q3: Decide on sections
   * [ ] Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
   * [ ] Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping. Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
@@ -25,7 +25,7 @@
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
 
 
-This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs). The repo is actively being updated; Leave a star t bookmark it or _Watch_ the repo to get notificatied of updates.
+This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs). The repo is actively being updated; Leave a start bookmark it or _Watch_ the repo to get notificatied of updates.
 
 ## Commit messages and `gitmoji`
 
@@ -128,6 +128,8 @@ Context:
 |--|--|
 | Great splitting information | Painful to format in MD|
 
+## Python
+Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/).
 
 
 ## Other methdology
@@ -149,3 +151,4 @@ Context:
 * Use solarized-theme
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
 * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
+* [Music for programming](https://www.musicforprogramming.net)
