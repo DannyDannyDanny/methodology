@@ -132,6 +132,7 @@ Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
 * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
+* [Anticipatory Failure Determination](https://historyofyesterday.com/suppose-i-wanted-to-kill-a-lot-of-pilots-f126bbc756fa)
 * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
 * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
 * Use databases
@@ -142,7 +143,7 @@ Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx
   * Audit [security](https://hangar.tech/posts/our-dsq/)
   * Understand [SSH tunnels](https://robotmoon.com/ssh-tunnels/)
 * Use [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
-* Use solarized-theme
+* Programming Personalizations
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
 * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
 * [Music for programming](https://www.musicforprogramming.net)
@@ -155,3 +156,4 @@ Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx
 * Is [extreme programming](http://www.extremeprogramming.org/) a thing?
 * Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
 * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
+* [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
