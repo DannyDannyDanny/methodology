@@ -9,9 +9,10 @@
 * [x] 2021Q2: Version control methodology
   * [x] Oneliner build / install / run / deploy
   * [x] Git (Branching, Merging and Pull Requests)
-  * [x] Default environment section 
+  * [x] Default environment section
 * [ ] 2021Q3: Decide on sections
-  * [ ] Categorize [other methodology](#other-methdology)
+  * [ ] Organize [other methodology](#other-methdology) into hierarchy
+  * [ ] Split hierarchy into paragraphs / sections
 * 2021Q4
   * [ ] Add sub-pages
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
@@ -148,7 +149,9 @@ Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx
 * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
 * [Music for programming](https://www.musicforprogramming.net)
 * Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
-* Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping. Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
+* Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
+  * Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
+  * [AsciiFlow](https://asciiflow.com/#/)
 * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
 * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
 * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
