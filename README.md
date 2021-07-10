@@ -160,3 +160,4 @@ Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx
 * Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
 * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
 * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
+* [Divide year into 26 fortnights labelled A-Z](https://futureofcoding.org/episodes/044#19)
