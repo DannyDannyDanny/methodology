@@ -126,6 +126,9 @@ Context:
 ## Python
 Python is notoriously painful to manage. Use [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/).
 
+## Deploying to Servers
+When deploying to FreeBSD and Linux servers, place the code in the `/home` directory.
+
 
 ## Other methdology
 * Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
