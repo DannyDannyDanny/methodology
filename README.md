@@ -124,7 +124,7 @@ Context:
 | Great splitting information | Painful to format in MD|
 
 ## Python
-Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/).
+Python is notoriously painful to manage. Use [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/).
 
 
 ## Other methdology
@@ -161,3 +161,6 @@ Python is notirously painful to manage. Use [pipx](https://pypi.org/project/pipx
 * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
 * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
 * [Divide year into 26 fortnights labelled A-Z](https://futureofcoding.org/episodes/044#19)
+
+# Project Portfolio
+* Consumption Predictor
