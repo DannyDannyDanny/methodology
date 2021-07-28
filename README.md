@@ -142,6 +142,7 @@ When deploying to FreeBSD and Linux servers, place the code in the `/home` direc
 * Use databases
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
   * Be aware of [feature casualties of large databases](https://web.dev/streams/)
+* [Data Science - Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
 * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
 * Security
   * Audit [security](https://hangar.tech/posts/our-dsq/)
