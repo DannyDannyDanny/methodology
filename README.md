@@ -126,6 +126,13 @@ Context:
 ## Python
 Python is notoriously painful to manage. Use [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/).
 
+### Pathlib
+```
+from pathlib import Path
+Path('.').iterdir()
+Path('.').absolute()
+```
+
 ## Deploying to Servers
 When deploying to FreeBSD and Linux servers, place the code in the `/home` directory.
 
