@@ -7,7 +7,7 @@
 ## Repo Roadmap
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
 * [x] 2021Q2: ~Version control methodology~
-* [ ] 2021Q3: Decide on sections
+* 2021Q3: Decide on sections
   * [ ] Python section
   * [ ] Organize [other methodology](#other-methdology) into hierarchy
   * [ ] Split hierarchy into paragraphs / sections
@@ -15,6 +15,7 @@
   * [ ] Refine github flows
   * [ ] Add sub-pages
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
+* [ ] 2022Q1 Consultancy Method
 
 
 This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs). The repo is actively being updated; Leave a start bookmark it or _Watch_ the repo to get notificatied of updates.
