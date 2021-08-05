@@ -6,14 +6,13 @@
 
 ## Repo Roadmap
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
-* [x] 2021Q2: Version control methodology
-  * [x] Oneliner build / install / run / deploy
-  * [x] Git (Branching, Merging and Pull Requests)
-  * [x] Default environment section
+* [x] 2021Q2: ~Version control methodology~
 * [ ] 2021Q3: Decide on sections
+  * [ ] Python section
   * [ ] Organize [other methodology](#other-methdology) into hierarchy
   * [ ] Split hierarchy into paragraphs / sections
 * 2021Q4
+  * [ ] Refine github flows
   * [ ] Add sub-pages
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
 
@@ -64,8 +63,11 @@ pipenv run python .
 > In progress! 🚧 Use [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)!
 
 ```sh
-git log --all --decorate --oneline --graph
 # Git Log A DOG acronym
+git log --all --decorate --oneline --graph
+
+# when you have uncommitted changes
+git add --patch <pattern>
 ```
 
 #### New Development Flow
