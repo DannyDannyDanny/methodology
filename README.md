@@ -68,10 +68,8 @@ git log --all --decorate --oneline --graph
 
 # when you have uncommitted changes
 git add --patch <pattern>
-```
 
-#### New Development Flow
-```
+# NEW DEVELOPMENT FLOW
 # clone repo with local_name enables several clones
 git clone <repo> <local_name>
 
@@ -83,10 +81,8 @@ git checkout <feature/featurename>
 git checkout <feature/newfeature>
 git branch <feature/newfeature>
 git push --set-upstream origin <feature/newfeature>
-```
 
-#### Comparing / Merging two branches
-```
+# Comparing / Merging two branches
 git merge --no-commit --no-ff <feature/otherfeaturebranch>
 ```
 
@@ -107,36 +103,28 @@ Context:
 # -> feature1 is rejected and made obsolete
 ```
 
-## Repo Badges
-> Coming soon! 🚧
-
-![Coverage badge][coverage-badge]
-
-[coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
-
-## Documentation
-* Use markdown with [Google Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
-* Conceptual graphical documentation as inline embedded images.
-* Save Matplotlib / Seaborn plots as `.svg`.
-* Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
-* Scanned / photographed illustrations should be cropped, contrast and alligned.
-
-|Cons of tables |Pros of tables|
-|--|--|
-| Great splitting information | Painful to format in MD|
-
-## Python
+# Python
 Python is notoriously painful to manage. Use [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/).
 
 ### Pathlib
+For navigating, reading and filesystem and file read/write.
 ```
 from pathlib import Path
 Path('.').iterdir()
 Path('.').absolute()
 ```
 
-## Deploying to Servers
+### Deploying to Servers
 When deploying to FreeBSD and Linux servers, place the code in the `/home` directory.
+
+
+# Documentation
+* Use markdown with [Google Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
+* Conceptual graphical documentation as inline embedded images.
+* Save Matplotlib / Seaborn plots as `.svg`.
+* Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
+* Scanned / photographed illustrations should be cropped, contrast and alligned.
+
 
 
 ## Other methdology
@@ -175,5 +163,15 @@ When deploying to FreeBSD and Linux servers, place the code in the `/home` direc
 * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
 * [Divide year into 26 fortnights labelled A-Z](https://futureofcoding.org/episodes/044#19)
 
-# Project Portfolio
+# Sort Sections
+
+### Repo Badges
+> Coming soon! 🚧
+
+![Coverage badge][coverage-badge]
+
+[coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
+
+
+### Project Portfolio
 * Consumption Predictor
