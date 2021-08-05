@@ -126,43 +126,45 @@ When deploying to FreeBSD and Linux servers, place the code in the `/home` direc
 * Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
 * Scanned / photographed illustrations should be cropped, contrast and alligned.
 
-
-
 ## Other methdology
 * Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
 * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
-* Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
-* [Anticipatory Failure Determination](https://historyofyesterday.com/suppose-i-wanted-to-kill-a-lot-of-pilots-f126bbc756fa)
-* [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
-* Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
-* Use databases
+* Planning
+  * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
+* DevOps
+  * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
+  * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
+  * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
+* UX/UI
+  * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
+  * [Divide year into 26 fortnights labelled A-Z](https://futureofcoding.org/episodes/044#19)
+  * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
+* Database / DataWarehouse
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
   * Be aware of [feature casualties of large databases](https://web.dev/streams/)
-* [Data Science - Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
-* Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
+  * [Data Science - Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
 * Security
   * Audit [security](https://hangar.tech/posts/our-dsq/)
   * Understand [SSH tunnels](https://robotmoon.com/ssh-tunnels/)
-* Use [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
+  * [Anticipatory Failure Determination](https://historyofyesterday.com/suppose-i-wanted-to-kill-a-lot-of-pilots-f126bbc756fa)
 * Programming Personalizations
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
-* Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
-* [Music for programming](https://www.musicforprogramming.net)
+  * [Music for programming](https://www.musicforprogramming.net)
+  * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
 * Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
 * Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
   * Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
   * [AsciiFlow](https://asciiflow.com/#/)
 * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
-* [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
-* [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
+* Philosophy / Mindset
+  * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
 * Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
 * Is [extreme programming](http://www.extremeprogramming.org/) a thing?
 * Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
 * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
 * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
-* [Divide year into 26 fortnights labelled A-Z](https://futureofcoding.org/episodes/044#19)
 
 # Sort Sections
 
