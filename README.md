@@ -152,14 +152,18 @@ When deploying to FreeBSD and Linux servers, place the code in the `/home` direc
   * Audit [security](https://hangar.tech/posts/our-dsq/)
   * Understand [SSH tunnels](https://robotmoon.com/ssh-tunnels/)
   * [Anticipatory Failure Determination](https://historyofyesterday.com/suppose-i-wanted-to-kill-a-lot-of-pilots-f126bbc756fa)
+  * [Secret Management for APIs](https://blog.gitguardian.com/secrets-api-management/)
 * Programming Personalizations
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
   * [Music for programming](https://www.musicforprogramming.net)
   * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
 * Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
-* Visualization problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
+* Visualization
+  * problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
   * Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
   * [AsciiFlow](https://asciiflow.com/#/)
+  * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
+  * [Tikz Editor](https://tikzcd.yichuanshen.de)
 * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
 * Philosophy / Mindset
   * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
