@@ -70,6 +70,9 @@ git log --all --decorate --oneline --graph
 # when you have uncommitted changes
 git add --patch <pattern>
 
+# check what you've staged
+git diff --cached
+
 # NEW DEVELOPMENT FLOW
 # clone repo with local_name enables several clones
 git clone <repo> <local_name>
