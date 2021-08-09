@@ -170,6 +170,7 @@ When deploying to FreeBSD and Linux servers, place the code in the `/home` direc
 * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
 * Philosophy / Mindset
   * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
+  * _doing it right_ vs _doing it on time_
 * Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
 * Is [extreme programming](http://www.extremeprogramming.org/) a thing?
 * Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
