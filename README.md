@@ -93,6 +93,9 @@ git push origin -d <branch_name>
 
 # Comparing / Merging two branches
 git merge --no-commit --no-ff <feature/otherfeaturebranch>
+
+# get file from another branch
+git checkout <otherbranch> -- path/to/dir
 ```
 
 #### Submitting multiple PRs
