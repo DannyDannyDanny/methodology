@@ -86,6 +86,11 @@ git checkout <feature/newfeature>
 git branch <feature/newfeature>
 git push --set-upstream origin <feature/newfeature>
 
+# delete branch locally (-d: normal, -D: force)
+git branch -D <branch_name_1> <branch_name_2> <branch_name_1>
+# delete remote
+git push origin -d <branch_name>
+
 # Comparing / Merging two branches
 git merge --no-commit --no-ff <feature/otherfeaturebranch>
 ```
