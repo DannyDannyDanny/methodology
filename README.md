@@ -96,6 +96,9 @@ git merge --no-commit --no-ff <feature/otherfeaturebranch>
 
 # get file from another branch
 git checkout <otherbranch> -- path/to/dir
+
+# delete branches not present on remote
+git remote prune origin
 ```
 
 #### Submitting multiple PRs
