@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-18T10:21:00.080Z" agent="5.0 (X11)" etag="ltfmbbDTPi2W6MGe9AVY" version="14.9.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-08-18T10:34:03.709Z" agent="5.0 (X11)" etag="xDra4cl2lvrm89AKuFbX" version="14.9.7" type="github" pages="11">
   <diagram id="EDr00zZlM0DfOTWeBqFN" name="Overview Simple">
     <mxGraphModel dx="2062" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -503,6 +503,38 @@
         </mxCell>
         <mxCell id="MLdbu4W5Rm1iVZ_OZZ4--17" value="Time Interval" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;rotation=-90;" vertex="1" parent="U30W5CIyJaaB-GndnXz_-1">
           <mxGeometry x="-20" y="160" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q12v31Zt37sWwVjuLgZr" name="Example Model">
+    <mxGraphModel dx="2062" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-0" />
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-1" parent="TnJeDMbYY2yQqzsAqVD7-0" />
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="TnJeDMbYY2yQqzsAqVD7-1" source="TnJeDMbYY2yQqzsAqVD7-2" target="TnJeDMbYY2yQqzsAqVD7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-2" value="Model:&lt;br&gt;&lt;div&gt;&lt;b&gt;sms next day&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="TnJeDMbYY2yQqzsAqVD7-1">
+          <mxGeometry x="390" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="TnJeDMbYY2yQqzsAqVD7-1" source="TnJeDMbYY2yQqzsAqVD7-4" target="TnJeDMbYY2yQqzsAqVD7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-4" value="&lt;div&gt;Model_input: &lt;b&gt;SMS&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;total_days: 12&lt;/div&gt;&lt;div&gt;sample_freq: 2 hours&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TnJeDMbYY2yQqzsAqVD7-1">
+          <mxGeometry x="120" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="TnJeDMbYY2yQqzsAqVD7-1" source="TnJeDMbYY2yQqzsAqVD7-7" target="TnJeDMbYY2yQqzsAqVD7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-7" value="&lt;div&gt;Model_input: &lt;b&gt;Call&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;total_days: 12&lt;/div&gt;&lt;div&gt;sample_freq: 2 hours&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="TnJeDMbYY2yQqzsAqVD7-1">
+          <mxGeometry x="120" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-14" value="optional extra input" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="TnJeDMbYY2yQqzsAqVD7-1">
+          <mxGeometry x="280" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TnJeDMbYY2yQqzsAqVD7-15" value="&lt;div&gt;Prediction: &lt;b&gt;sms-ned&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Resource: sms&lt;/div&gt;&lt;div&gt;Interval: next day&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="TnJeDMbYY2yQqzsAqVD7-1">
+          <mxGeometry x="660" y="120" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
