@@ -120,9 +120,11 @@ Context:
 
 # Python
 Packages we like:
+* Python Standard Library:
+  * [argparse](https://docs.python.org/3/library/argparse.html) to build CLI programs
 * [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/).
 environment management.
-* argparse
+* [Fabric](https://www.fabfile.org/) for deployment over SSH
 
 ### Pathlib
 For navigating, reading and filesystem and file read/write.
@@ -131,10 +133,6 @@ from pathlib import Path
 Path('.').iterdir()
 Path('.').absolute()
 ```
-
-### Deploying to Servers
-When deploying to FreeBSD and Linux servers, place the code in the `/home` directory.
-
 
 # Documentation
 * Use [Google's Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
