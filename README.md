@@ -99,6 +99,9 @@ git checkout <otherbranch> -- path/to/dir
 
 # delete branches not present on remote
 git remote prune origin
+
+# see all commits that affected somefile
+git log --follow -- filename
 ```
 
 #### Submitting multiple PRs
