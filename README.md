@@ -32,14 +32,14 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:art:|`:art:`| refactor code / improve readibility / structure and lint flake8 |
 |:goal_net:|`:goal_net:`| try/raise/handle errors or warnings|
 |:zap:|`:zap:`| improve performance / coverage / profiling |
-|:bug:|`:bug:`| fix this bug |
+|:bug:|`:bug:`| bug fixing |
 |:truck:|`:truck:`| moving / renaming |
 |:recycle:|`:recycle:`| work related to CI/CD, webhooks, automated tests |
 |:construction: / :boom:|`:construction:`/`:boom:`| work in progress / breaking changes |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
-|:fire: / :coffin:|`:fire:`/`:coffin:`| remove (dead) code / file |
+|:fire: |`:fire:`| remove (dead) code / file |
 |:alien:|`:alien:`| changes related to APIs and Databases |
-|:bar_chart:|`:bar_chart:`| clean / transform / validate _data_|
+|:tada:|`:tada:`| clean / transform / validate _data_|
 |:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations|
 |:pushpin:|`:pushpin:`| dependency and environment versioning |
 |:see_no_evil:|`:see_no_evil:`| changes to .gitignore and exclusively local files |
