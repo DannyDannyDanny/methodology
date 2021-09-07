@@ -35,7 +35,7 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:bug:|`:bug:`| bug fixing |
 |:truck:|`:truck:`| moving / renaming |
 |:recycle:|`:recycle:`| work related to CI/CD, webhooks, automated tests |
-|:construction: / :boom:|`:construction:`/`:boom:`| work in progress / breaking changes |
+|:boom:|`:boom:`| work in progress / breaking changes |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire: |`:fire:`| remove (dead) code / file |
 |:alien:|`:alien:`| changes related to APIs and Databases |
