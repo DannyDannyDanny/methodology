@@ -103,6 +103,9 @@ git remote prune origin
 
 # see all commits that affected somefile
 git log --follow -- filename
+
+# search code in all history
+git log -S "some_old_varname" --oneline --all
 ```
 
 #### Submitting multiple PRs
