@@ -149,7 +149,6 @@ Path('.').absolute()
 * Scanned / photographed illustrations should be cropped, contrast and alligned.
 
 ## Other methdology
-* Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
 * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
 * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
 * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
@@ -163,6 +162,12 @@ Path('.').absolute()
   * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
   * [Divide year into 26 fortnights labelled A-Z](https://futureofcoding.org/episodes/044#19)
   * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
+* Visualization
+  * problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
+  * Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
+  * [AsciiFlow](https://asciiflow.com/#/)
+  * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
+  * [Tikz Editor](https://tikzcd.yichuanshen.de)
 * Database / DataWarehouse
   * PostgreSQL ([datetime functs](https://www.postgresql.org/docs/9.1/functions-datetime.html))
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
@@ -177,32 +182,20 @@ Path('.').absolute()
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
   * [Music for programming](https://www.musicforprogramming.net)
   * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
-* Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
-* Visualization
-  * problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
-  * Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
-  * [AsciiFlow](https://asciiflow.com/#/)
-  * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
-  * [Tikz Editor](https://tikzcd.yichuanshen.de)
+* Deploying
+  * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
+* AI / ML / Modelling
+  * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
 * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
-* Philosophy / Mindset
+* Philosophy / Mindset / Principles
   * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
   * _doing it right_ vs _doing it on time_
-* Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
-* Is [extreme programming](http://www.extremeprogramming.org/) a thing?
-* Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
-* Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
-* [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
-
-# Sort Sections
-
-### Repo Badges
-> Coming soon! 🚧
-
-![Coverage badge][coverage-badge]
+  * Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
+* Collaboration / Working in a team
+  * Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
+  * Is [extreme programming](http://www.extremeprogramming.org/) a thing?
+  * Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
+  * Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
+  * keeping the repo nice ![Coverage badge][coverage-badge]
 
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
-
-
-### Project Portfolio
-* Consumption Predictor
