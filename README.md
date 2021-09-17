@@ -191,6 +191,7 @@ Path('.').absolute()
   * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
   * _doing it right_ vs _doing it on time_
   * Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
+  * [Software Design X Dieter Rams](https://github.com/zedr/dieter-rams-10-applied-to-software)
 * Collaboration / Working in a team
   * Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
   * Is [extreme programming](http://www.extremeprogramming.org/) a thing?
