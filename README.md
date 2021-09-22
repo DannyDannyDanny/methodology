@@ -8,23 +8,30 @@
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
 * [x] 2021Q2: ~Version control methodology~
 * 2021Q3: Decide on sections
-  * [ ] Python section
-  * [ ] Organize [other methodology](#other-methdology) into hierarchy
-  * [ ] Split hierarchy into paragraphs / sections
+  * [ ] ~~Python section~~ Sections by Project Phase (setup, develop, deploy, deliver) each section should cover the same topics (i.e version control, DevOps)
+  * [ ] Move as much as possible from [Topic Hierarchy](#Topic-Hierarchy) into phases
 * 2021Q4
   * [ ] Refine github flows
   * [ ] Add sub-pages
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
-* [ ] 2022Q1 Consultancy Method
+* [ ] 2022Q1 Consultancy Methodology
+* [ ] 2022Q2 Alternative to Github?
 
+This guide focuses on designing, developing and delivering Data-Processing Sytems, written primarily in python, deploying to Linux / FreeBSD servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
 
-This methodology repo is focused on Python Data Processing based projects with som external dependencies (APIs or DBs). The repo is actively being updated; Leave a start bookmark it or _Watch_ the repo to get notificatied of updates.
+## Project Phases
 
-# Version control
+|         | Version Control | DevOps | Documentation |
+|--       |-- |-- |-- |
+| [setup](#setup)   | [Setup Version Control](#setup-version-control) | b | c |
+| develop | [Develop with Version Control](#develop-with-version-control) | b | c |
+| deploy  | a | b | c |
+| deliver | a | b | c |
+| mastery | git-mastery
 
-## Commit messages and `gitmoji`
+## Gitmoji reference
 
-Use the format `:gitmoji: <commit message>` in your commit messages. Only proper nouns, CamelCase and class names should have uppercases letters. Avoid using multiple gitmojis.
+Use the format `:gitmoji: <commit message>` in your commit messages. Only proper nouns, CamelCase and class names should have uppercases letters. ~~Avoid using multiple gitmojis.~~ Use several gitmojis if it makes sense.
 
 |emoji|code|description|
 |---|---|---|
@@ -49,7 +56,13 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
 
-## Oneliner install and run
+## Setup
+
+### Setup Version Control
+
+🚧 Use [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)!
+
+### Oneliner install and run
 When using git repositories, connect with [ssh](https://stackoverflow.com/a/65415202/5684214).
 
 The README for your project should contain a one-liner code that dowloads, installs and runs a mini-test.
@@ -60,9 +73,7 @@ pipenv run python .
 #cd .. && rm -rf cool-user-repo-online
 ```
 
-## Git Flows
-
-> In progress! 🚧 Use [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)!
+## Develop with Version Control
 
 ```sh
 # Git Log A DOG acronym
@@ -108,7 +119,7 @@ git log --follow -- filename
 git log -S "some_old_varname" --oneline --all
 ```
 
-#### Submitting multiple PRs
+### Submitting multiple PRs
 * [Interactive rebase](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr#comment96514430_35793095)
 * [Rebase & Update PR](https://www.digitalocean.com/community/tutorials/how-to-rebase-and-update-a-pull-request)
 
@@ -148,56 +159,58 @@ Path('.').absolute()
 * Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
 * Scanned / photographed illustrations should be cropped, contrast and alligned.
 
-## Other methdology
-* [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
-* Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
-* Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
-* Planning
+## Topic Hierarchy
+* **Project Planning**
   * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
-* DevOps
+* **DevOps**
   * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
   * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
   * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
-* UX/UI
+* **UX/UI**
   * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
   * [Divide year into 26 fortnights labelled A-Z](https://futureofcoding.org/episodes/044#19)
   * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
-* Visualization
+* **Visualization**
   * problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
   * Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
   * [AsciiFlow](https://asciiflow.com/#/)
   * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
   * [Tikz Editor](https://tikzcd.yichuanshen.de)
-* Database / DataWarehouse
+* **Database / DataWarehouse**
   * PostgreSQL ([datetime functs](https://www.postgresql.org/docs/9.1/functions-datetime.html))
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
   * Be aware of [feature casualties of large databases](https://web.dev/streams/)
   * [Data Science - Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
-* Security
+* **Security**
   * Audit [security](https://hangar.tech/posts/our-dsq/)
   * Understand [SSH tunnels](https://robotmoon.com/ssh-tunnels/)
   * [Anticipatory Failure Determination](https://historyofyesterday.com/suppose-i-wanted-to-kill-a-lot-of-pilots-f126bbc756fa)
   * [Secret Management for APIs](https://blog.gitguardian.com/secrets-api-management/)
-* Programming Personalizations
+* **Programming Personalizations**
   * vscode tip: turn off _openDiffOnClick_
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
   * [Music for programming](https://www.musicforprogramming.net)
   * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
-* Deploying
+* **Deploying**
   * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
-* AI / ML / Modelling
+* **AI / ML / Modelling**
   * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
-* There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
-* Philosophy / Mindset / Principles
+* **Philosophy / Mindset / Principles**
   * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
   * _doing it right_ vs _doing it on time_
   * Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
   * [Software Design X Dieter Rams](https://github.com/zedr/dieter-rams-10-applied-to-software)
-* Collaboration / Working in a team
+* **Collaboration / Working in a team**
   * Details about [pair programming](https://martinfowler.com/articles/on-pair-programming.html)
   * Is [extreme programming](http://www.extremeprogramming.org/) a thing?
   * Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
   * Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
   * keeping the repo nice ![Coverage badge][coverage-badge]
+* **Misc**
+  * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
+  * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
+  * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
+  * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
+
 
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
