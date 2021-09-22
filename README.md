@@ -19,15 +19,12 @@
 
 This guide focuses on designing, developing and delivering Data-Processing Sytems, written primarily in python, deploying to Linux / FreeBSD servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
 
-## Project Phases
+## Table Of Contents :consruction:
 
-|         | Version Control | DevOps | Documentation |
-|--       |-- |-- |-- |
-| [setup](#setup)   | [Setup Version Control](#setup-version-control) | b | c |
-| develop | [Develop with Version Control](#develop-with-version-control) | b | c |
-| deploy  | a | b | c |
-| deliver | a | b | c |
-| mastery | git-mastery
+* [Setup](#setup) ([Version Control](#setup-version-control), [Server Management](#Server Management), Documentation)
+* [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
+* Deploy
+* Deliver?
 
 ## Gitmoji reference
 
@@ -57,6 +54,9 @@ Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
 
 ## Setup
+
+### Server Management
+* Python set on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
 
 ### Setup Version Control
 
@@ -152,14 +152,12 @@ Path('.').iterdir()
 Path('.').absolute()
 ```
 
-# Documentation
-* Use [Google's Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
-* Conceptual graphical documentation as inline embedded images.
-* Save Matplotlib / Seaborn plots as `.svg`.
-* Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
-* Scanned / photographed illustrations should be cropped, contrast and alligned.
-
-## Topic Hierarchy
+* **Documentation**
+  * Use [Google's Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
+  * Conceptual graphical documentation as inline embedded images.
+  * Save Matplotlib / Seaborn plots as `.svg`.
+  * Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
+  * Scanned / photographed illustrations should be cropped, contrast and alligned.
 * **Project Planning**
   * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 * **DevOps**
