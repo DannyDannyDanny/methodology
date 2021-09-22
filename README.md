@@ -179,6 +179,7 @@ Path('.').absolute()
   * [Anticipatory Failure Determination](https://historyofyesterday.com/suppose-i-wanted-to-kill-a-lot-of-pilots-f126bbc756fa)
   * [Secret Management for APIs](https://blog.gitguardian.com/secrets-api-management/)
 * Programming Personalizations
+  * vscode tip: turn off _openDiffOnClick_
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
   * [Music for programming](https://www.musicforprogramming.net)
   * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
