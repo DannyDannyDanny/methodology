@@ -166,7 +166,6 @@ Path('.').absolute()
   * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
 * **UX/UI**
   * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
-  * [Divide year into 26 fortnights labelled A-Z](https://futureofcoding.org/episodes/044#19)
   * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
 * **Visualization**
   * problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
