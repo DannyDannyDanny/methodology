@@ -210,6 +210,8 @@ Path('.').absolute()
   * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
   * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
   * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
-
+* Mac Software
+  * [Lulu Firewall](https://objective-see.com/products/lulu.html)
+  * [NightOwal](https://nightowl.kramser.xyz/)
 
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
