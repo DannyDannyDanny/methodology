@@ -73,7 +73,19 @@ pipenv run python .
 #cd .. && rm -rf cool-user-repo-online
 ```
 
-## Develop with Version Control
+## Develop
+
+### Python Developement
+
+* Python Standard Library:
+  * [argparse](https://docs.python.org/3/library/argparse.html) to build CLI programs
+  * [pathlib](https://docs.python.org/3/library/pathlib.html) for file-IO
+* Pyhon modules
+* [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/) for environment management.
+* [Fabric](https://www.fabfile.org/) for deployment over SSH
+* Avoid [code smells](https://refactoring.guru/refactoring/smells)
+
+### Develop with Version Control
 
 ```sh
 # Git Log A DOG acronym
@@ -134,22 +146,6 @@ Context:
 # there should be one or more flows that account for cases where:
 # -> feature1 gets change requests
 # -> feature1 is rejected and made obsolete
-```
-
-# Python
-Packages we like:
-* Python Standard Library:
-  * [argparse](https://docs.python.org/3/library/argparse.html) to build CLI programs
-* [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/).
-environment management.
-* [Fabric](https://www.fabfile.org/) for deployment over SSH
-
-### Pathlib
-For navigating, reading and filesystem and file read/write.
-```
-from pathlib import Path
-Path('.').iterdir()
-Path('.').absolute()
 ```
 
 * **Documentation**
