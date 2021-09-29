@@ -59,8 +59,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 * Python set on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
 
 ### Setup Version Control
-
-🚧 Use [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)!
+* Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
 
 ### Oneliner install and run
 When using git repositories, connect with [ssh](https://stackoverflow.com/a/65415202/5684214).
