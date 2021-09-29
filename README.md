@@ -1,10 +1,21 @@
 ## [DannyDannyDanny/Methodology](https://github.com/DannyDannyDanny/methodology/)
 
+* [Repo Roadmap](#repo-roadmap)
+* [Gitmoji Reference](#gitmoji-reference)
+* [Setup](#setup) ([Version Control](#setup-version-control), [Server Management](#setup-server-management), Documentation)
+* [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
+* Deploy
+* Deliver?
+
 <a href="https://gitmoji.carloscuesta.me">
   <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
 </a>
 
 ## Repo Roadmap
+
+This guide focuses on designing, developing and delivering Data-Processing Sytems, written primarily in python, deploying to Linux / FreeBSD servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
+
+
 * [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
 * [x] 2021Q2: ~Version control methodology~
 * 2021Q3: Decide on sections
@@ -17,14 +28,6 @@
 * [ ] 2022Q1 Consultancy Methodology
 * [ ] 2022Q2 Alternative to Github?
 
-This guide focuses on designing, developing and delivering Data-Processing Sytems, written primarily in python, deploying to Linux / FreeBSD servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
-
-## Table Of Contents :consruction:
-
-* [Setup](#setup) ([Version Control](#setup-version-control), [Server Management](#setup-server-management), Documentation)
-* [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
-* Deploy
-* Deliver?
 
 ## Gitmoji reference
 
