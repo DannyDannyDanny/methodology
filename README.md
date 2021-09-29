@@ -21,7 +21,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 
 ## Table Of Contents :consruction:
 
-* [Setup](#setup) ([Version Control](#setup-version-control), [Server Management](#Server Management), Documentation)
+* [Setup](#setup) ([Version Control](#setup-version-control), [Server Management](#setup-server-management), Documentation)
 * [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
 * Deploy
 * Deliver?
@@ -55,11 +55,12 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 
 ## Setup
 
-### Server Management
+### Setup Server Management
 * Python set on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
 
 ### Setup Version Control
 * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
+* Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
 
 ### Oneliner install and run
 When using git repositories, connect with [ssh](https://stackoverflow.com/a/65415202/5684214).
