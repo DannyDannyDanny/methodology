@@ -58,23 +58,14 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 
 ## Setup
 
-### Setup Server Management
-* Python set on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
-
-### Setup Version Control
-* Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
-* Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
-
-### Oneliner install and run
-When using git repositories, connect with [ssh](https://stackoverflow.com/a/65415202/5684214).
-
-The README for your project should contain a one-liner code that dowloads, installs and runs a mini-test.
-```bash
-git clone https://github.com/user/repo.git cool-repo && cd cool-repo
-pipenv install
-pipenv run python .
-#cd .. && rm -rf cool-user-repo-online
-```
+* **Setup Server Management**
+  * Python set on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
+* **Setup Version Control**
+  * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214). when possible
+  * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
+  * Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
+* **Documentation**
+  * Install & Run section (docker one-liner)
 
 ## Develop
 
