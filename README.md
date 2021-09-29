@@ -1,5 +1,8 @@
 ## [DannyDannyDanny/Methodology](https://github.com/DannyDannyDanny/methodology/)
 
+
+This guide focuses on designing, developing and delivering Data-Processing Sytems, written primarily in python, deploying to Linux servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
+
 * [Repo Roadmap](#repo-roadmap)
 * [Gitmoji Reference](#gitmoji-reference)
 * [Setup](#setup) ([Version Control](#setup-version-control), [Server Management](#setup-server-management), Documentation)
@@ -13,20 +16,15 @@
 
 ## Repo Roadmap
 
-This guide focuses on designing, developing and delivering Data-Processing Sytems, written primarily in python, deploying to Linux / FreeBSD servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
-
-
-* [x] 2021Q1: ~Gitmoji -> (general) Methodology~ :white_check_mark:
-* [x] 2021Q2: ~Version control methodology~
-* 2021Q3: Decide on sections
-  * [ ] ~~Python section~~ Sections by Project Phase (setup, develop, deploy, deliver) each section should cover the same topics (i.e version control, DevOps)
-  * [ ] Move as much as possible from _Topic Hierarchy_ into phases
-* 2021Q4
-  * [ ] Refine github flows
-  * [ ] Add sub-pages
+* [x] 2021Q3: Decide on sections:
+  * Sections by Project Phase (setup, develop, deploy, deliver)
+  * Each section should covers fixed topics (version control, systems management, docuementation)
+  * Information that doesn't fit here goes to _Topic Hierarchy_ into phases
+* [ ] 2021Q4
+  * [ ] Each section has at least one bullet point
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
-* [ ] 2022Q1 Consultancy Methodology
-* [ ] 2022Q2 Alternative to Github?
+* [ ] 2022Q1 Delivery Methodology
+* [ ] 2022Q2 Consultancy Methodology
 
 
 ## Gitmoji reference
