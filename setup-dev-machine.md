@@ -1,7 +1,8 @@
 # Mac
 
-Use `brew bundle` to automatically download and install your `brewfile`:
+Use `brew bundle` to automatically download and install software from your `brewfile`.
 
+### `brewfile`
 ```
 tap "homebrew/cask"
 brew "tree"
@@ -16,6 +17,7 @@ cask "docker"
 cask "vlc"
 cask "disk-inventory-x"
 cask "rekordbox"
+cask "clickup"
 ```
 
 # Linux
