@@ -55,7 +55,7 @@ Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
 
 ## Setup
-
+* **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Server Management**
   * Python set on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
 * **Setup Version Control**
