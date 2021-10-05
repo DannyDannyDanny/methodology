@@ -26,6 +26,7 @@ cask "visual-studio-code"
 
 * [Python x Vim](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
 * [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start)
+* [Vim bindings](https://stackoverflow.com/a/5400978/5684214)
 
 
 ```
