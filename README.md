@@ -62,6 +62,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
   * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214). when possible
   * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
   * Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
+  * Add an [`.EditorConfig` file](https://editorconfig.org/)
 * **Documentation**
   * Install & Run section (docker one-liner)
 
