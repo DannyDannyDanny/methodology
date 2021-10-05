@@ -19,7 +19,7 @@ cask "disk-inventory-x"
 cask "rekordbox"
 cask "clickup"
 cask "visual-studio-code"
-cask "karabiner-elements"
+# cask "karabiner-elements"
 ```
 
 ### `.vimrc`
@@ -56,7 +56,7 @@ set foldmethod=indent
 set foldlevel=99
 
 " flag extranous whitespace
-au BufRead,BufNewFile *.py match BadWhitespace /\s\+$/
+" au BufRead,BufNewFile *.py match BadWhitespace /\s\+$/
 
 "python with virtualenv support
 py << EOF
