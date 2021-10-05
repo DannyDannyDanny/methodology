@@ -24,7 +24,10 @@ cask "visual-studio-code"
 
 ### `.vimrc`
 
-https://github.com/VundleVim/Vundle.vim#quick-start
+* [Python x Vim](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
+* [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start)
+
+
 ```
 set nocompatible              " be iMproved, required
 filetype off                  " required
