@@ -19,6 +19,7 @@ cask "disk-inventory-x"
 cask "rekordbox"
 cask "clickup"
 cask "visual-studio-code"
+cask "karabiner-elements"
 ```
 
 ### `.vimrc`
