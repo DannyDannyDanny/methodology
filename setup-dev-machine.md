@@ -40,6 +40,9 @@ Plugin 'vim-scripts/indentpython.vim'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
+Plugin 'scrooloose/nerdtree'
+Plugin 'kien/ctrlp.vim'
+" Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " remeber to call `:PluginInstall` after changing
 
@@ -66,6 +69,12 @@ EOF
 
 let python_highlight_all=1
 syntax on
+
+" Line numbers
+set nu
+
+" Set clipboard
+set clipboard=unnamed
 ```
 
 # Linux
