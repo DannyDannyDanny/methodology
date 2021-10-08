@@ -4,22 +4,27 @@ Use `brew bundle` to automatically download and install software from your `brew
 
 ### `brewfile`
 ```
+tap "homebrew/bundle"
 tap "homebrew/cask"
-brew "tree"
-brew "mas"
-brew "handbrake"
+tap "homebrew/core"
 
+brew "flake8"
+brew "handbrake"
+brew "mas"
+brew "pre-commit"
+brew "tree"
+
+cask "clickup"
+cask "discord"
+cask "disk-inventory-x"
+cask "docker"
 cask "firefox"
 cask "iterm2"
-cask "telegram"
-cask "shiftit"
-cask "docker"
-cask "vlc"
-cask "disk-inventory-x"
 cask "rekordbox"
-cask "clickup"
+cask "shiftit"
+cask "telegram"
 cask "visual-studio-code"
-# cask "karabiner-elements"
+cask "vlc"
 ```
 
 ### `.vimrc`
