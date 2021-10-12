@@ -5,7 +5,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 
 * [Repo Roadmap](#repo-roadmap)
 * [Gitmoji Reference](#gitmoji-reference)
-* [Setup](#setup) ([Version Control](#setup-version-control), [Server Management](#setup-server-management), Documentation)
+* [Setup](#setup) ([Version Control](#setup-version-control), [Environments](#setup-server-management), Documentation)
 * [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
 * Deploy
 * Deliver?
@@ -56,8 +56,9 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
 
 ## Setup
 * **[Setup Dev Machine](setup-dev-machine.md)**
-* **Setup Server Management**
-  * Python set on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
+* **Setup Environments**
+  * You won't always have a server - so get virtualized for development ASAP 🏁 (insert docker guide)
+  * Python setup on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
 * **Setup Version Control**
   * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214). when possible
   * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
