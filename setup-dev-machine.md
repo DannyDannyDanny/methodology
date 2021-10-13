@@ -87,6 +87,18 @@ set nu
 set clipboard=unnamed
 ```
 
+### `.zshrc`
+
+During zsh setup, a `.zhrc` file is generated and left in the root.
+The following .zshrc content should extend (rather than replace) your `.zshrc`.
+
+```bash
+alias doco="docker-compose"
+
+# use vim bindings
+bindkey -v
+```
+
 # Linux
 
 > Coming Soon
