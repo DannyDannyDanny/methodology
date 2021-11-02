@@ -174,6 +174,7 @@ Context:
   * [Anticipatory Failure Determination](https://historyofyesterday.com/suppose-i-wanted-to-kill-a-lot-of-pilots-f126bbc756fa)
   * [Secret Management for APIs](https://blog.gitguardian.com/secrets-api-management/)
 * **Programming Personalizations**
+  * Code-tags ([PEP-0350](https://www.python.org/dev/peps/pep-0350/#mnemonics))
   * vscode tip: turn off _openDiffOnClick_
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
   * [Music for programming](https://www.musicforprogramming.net)
