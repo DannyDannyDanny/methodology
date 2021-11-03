@@ -48,7 +48,7 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations|
 |:brain:|`:brain:`| statistical modelling, training and prediction|
 |:pushpin:|`:pushpin:`| dependency and environment versioning |
-|:see_no_evil:|`:see_no_evil:`| changes to .gitignore and exclusively local files |
+|:see_no_evil:|`:see_no_evil:`| changes to `.*ignore` or local files |
 |:mag: |`:mag:`| changes in connection with PR-review change-requests |
 
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
