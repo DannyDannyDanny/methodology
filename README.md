@@ -55,6 +55,9 @@ Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
 
 ## Setup
+### Project Planning**
+* Make a roadmap
+  * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 * **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Environments**
   * You won't always have a server - so get virtualized for development ASAP 🏁 (insert docker guide)
@@ -148,8 +151,6 @@ Context:
   * Save Matplotlib / Seaborn plots as `.svg`.
   * Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
   * Scanned / photographed illustrations should be cropped, contrast and alligned.
-* **Project Planning**
-  * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 * **DevOps**
   * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
   * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
