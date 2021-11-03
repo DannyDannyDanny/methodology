@@ -34,7 +34,7 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |emoji|code|description|
 |---|---|---|
 |:sparkles:|`:sparkles:`| add new feature / function |
-|:art:|`:art:`| refactor code / improve readibility / structure and lint flake8 |
+|:art:|`:art:`| refactor code / add type hinting / improve readibility / structure and lint flake8 |
 |:goal_net:|`:goal_net:`| try/raise/handle errors or warnings|
 |:zap:|`:zap:`| improve performance / coverage / profiling |
 |:bug:|`:bug:`| bug fixing |
