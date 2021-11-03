@@ -44,9 +44,9 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire: |`:fire:`| remove (dead) code / file |
 |:alien:|`:alien:`| changes related to APIs and Databases |
-|:tada:|`:tada:`| clean / transform / validate _data_|
-|:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations|
-|:brain:|`:brain:`| statistical modelling, training and prediction|
+|:tada:|`:tada:`| clean / transform / validate _data_ |
+|:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations |
+|:brain:|`:brain:`| statistical modelling, training and prediction |
 |:pushpin:|`:pushpin:`| dependency and environment versioning |
 |:see_no_evil:|`:see_no_evil:`| changes to `.*ignore` or local files |
 |:mag: |`:mag:`| changes in connection with PR-review change-requests |
@@ -55,8 +55,8 @@ Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
 
 ## Setup
-### Project Planning**
-* Make a roadmap
+### Project Planning
+* Always have some kind of roadmap
   * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 * **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Environments**
