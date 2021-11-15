@@ -60,10 +60,10 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
   * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 * **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Environments**
-  * You won't always have a server - so get virtualized for development ASAP 🏁 (insert docker guide)
+  * You should be able to run the code and develop without a dedicated server. Get virtualized with [docker-compose](https://docs.docker.com/compose/compose-file/compose-file-v3/).
   * Python setup on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
 * **Setup Version Control**
-  * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214). when possible
+  * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214).
   * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
   * Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
   * Add an [`.EditorConfig` file](https://editorconfig.org/)
