@@ -35,7 +35,7 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |---|---|---|
 |:sparkles:|`:sparkles:`| add new feature / function |
 |:art:|`:art:`| refactor code / add type hinting / improve readibility / structure and lint flake8 |
-|:goal_net:|`:goal_net:`| try/raise/handle errors or warnings|
+|:goal_net:|`:goal_net:`| try/raise/handle errors or warnings |
 |:zap:|`:zap:`| improve performance / coverage / profiling |
 |:bug:|`:bug:`| bug fixing |
 |:truck:|`:truck:`| moving / renaming |
@@ -43,7 +43,7 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:boom:|`:boom:`| work in progress / breaking changes |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire: |`:fire:`| remove (dead) code / file |
-|:alien:|`:alien:`| changes related to APIs and Databases |
+|:alien:|`:alien:`| changes related to APIs, Databases, Network etc. |
 |:tada:|`:tada:`| clean / transform / validate _data_ |
 |:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations |
 |:brain:|`:brain:`| statistical modelling, training and prediction |
