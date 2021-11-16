@@ -1,10 +1,16 @@
+### Document Roadmap
+  * [ ] Sections by Project Phase (setup, develop, deploy, deliver)
+  * [ ] Each section has heading, [sections-link](#sections) and at least one bullet point
+  * [ ] Each section should covers fixed topics (version control, systems management, docuementation)
+  * [ ] Information that doesn't fit into phases goes to [_Topic Hierarchy_](#topic-hierarchy)
+  * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
+
+
 ### Sections
-* [Gitmoji Reference](#gitmoji-reference)
 * [Setup](#setup) ([Version Control](#setup-version-control), [Environments](#setup-server-management), Documentation)
 * [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
 * Deploy
 * Deliver?
-
 
 ## Setup
 ### Project Planning
@@ -97,6 +103,7 @@ Context:
 # -> feature1 is rejected and made obsolete
 ```
 
+#### Topic Hierarchy
 * **Documentation**
   * Use [Google's Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
   * Conceptual graphical documentation as inline embedded images.
