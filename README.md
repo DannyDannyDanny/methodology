@@ -164,6 +164,7 @@ Context:
   * [AsciiFlow](https://asciiflow.com/#/)
   * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
   * [Tikz Editor](https://tikzcd.yichuanshen.de)
+  * Matplotlib [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
 * **Database / DataWarehouse**
   * PostgreSQL ([datetime functs](https://www.postgresql.org/docs/9.1/functions-datetime.html))
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
