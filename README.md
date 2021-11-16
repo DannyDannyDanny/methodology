@@ -11,15 +11,10 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 
 ## Repo Roadmap
 
-* [x] 2021Q3: Decide on sections:
-  * Sections by Project Phase (setup, develop, deploy, deliver)
-  * Each section should covers fixed topics (version control, systems management, docuementation)
-  * Information that doesn't fit here goes to _Topic Hierarchy_ into phases
-* [ ] 2021Q4
-  * [ ] Each section has at least one bullet point
-  * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
-* [ ] 2022Q1 Delivery Methodology
-* [ ] 2022Q2 Consultancy Methodology
+* [x] 2021Q3: Decide on sections
+* [ ] 2021Q4: Split files (Developelemt, Delivery)
+* [ ] 2022Q1: Delivery Methodology
+* [ ] 2022Q2: Consultancy Methodology
 
 
 ## Gitmoji reference
