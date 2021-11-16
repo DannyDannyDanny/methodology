@@ -1,3 +1,11 @@
+### Sections
+* [Gitmoji Reference](#gitmoji-reference)
+* [Setup](#setup) ([Version Control](#setup-version-control), [Environments](#setup-server-management), Documentation)
+* [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
+* Deploy
+* Deliver?
+
+
 ## Setup
 ### Project Planning
 * Always have some kind of roadmap
