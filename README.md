@@ -12,7 +12,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 ## Repo Roadmap
 
 * [x] 2021Q3: Decide on sections
-* [ ] 2021Q4: Split files (Developelemt, Delivery)
+* [ ] 2021Q4: Split files (Development, Delivery)
 * [ ] 2022Q1: Delivery Methodology
 * [ ] 2022Q2: Consultancy Methodology
 
