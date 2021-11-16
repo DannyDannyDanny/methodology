@@ -68,7 +68,7 @@ Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull R
   * Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
   * Add an [`.EditorConfig` file](https://editorconfig.org/)
 * **Documentation**
-  * Install & Run section (docker one-liner)
+  * Your repo should have a one-liner for isntallation andd running: (docker-compose.yml + `doco up`)
 
 ## Develop
 
@@ -165,6 +165,9 @@ Context:
   * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
   * [Tikz Editor](https://tikzcd.yichuanshen.de)
   * Matplotlib [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
+* **API**
+  * Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
+  * 
 * **Database / DataWarehouse**
   * PostgreSQL ([datetime functs](https://www.postgresql.org/docs/9.1/functions-datetime.html))
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
