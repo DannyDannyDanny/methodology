@@ -35,10 +35,12 @@
 * Python Standard Library:
   * [argparse](https://docs.python.org/3/library/argparse.html) to build CLI programs
   * [pathlib](https://docs.python.org/3/library/pathlib.html) for file-IO
-* Pyhon modules
-* [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/) for environment management.
-* [Fabric](https://www.fabfile.org/) for deployment over SSH
-* Avoid [code smells](https://refactoring.guru/refactoring/smells)
+* External Modules:
+  * [Invoke](https://www.pyinvoke.org/) & [Fabric](https://www.fabfile.org/) for remote deployment
+* Writing good python code:
+  * Avoid [code smells](https://refactoring.guru/refactoring/smells)
+  * [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/) for environment management. If the machine has python3.x installed, use [venv](https://docs.python.org/3/library/venv.html) from the standard library.
+  * [Loguru](https://github.com/Delgan/loguru) for logging
 
 ### Develop with Version Control
 
