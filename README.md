@@ -30,7 +30,7 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:zap:|`:zap:`| improve performance / coverage / profiling |
 |:bug:|`:bug:`| bug fixing |
 |:truck:|`:truck:`| moving / renaming |
-|:recycle:|`:recycle:`| work related to CI/CD, webhooks, automated tests |
+|:recycle:|`:recycle:`| work related to CI/CD, pre-commit hooks, automated tests and environments |
 |:boom:|`:boom:`| work in progress / breaking changes |
 |:memo:|`:memo:`| doc / logging / verbosity / code comments |
 |:fire: |`:fire:`| remove (dead) code / file |
