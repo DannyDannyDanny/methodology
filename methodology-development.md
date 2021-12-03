@@ -19,7 +19,7 @@
 * **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Environments**
   * You should be able to run the code and develop without a dedicated server. Get virtualized with [docker-compose](https://docs.docker.com/compose/compose-file/compose-file-v3/).
-  * Python setup on [Ubuntu Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-20-04-server)
+  * Deploy using Docker. Docker keeps all your application events separate from OS events.
 * **Setup Version Control**
   * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214).
   * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
@@ -116,6 +116,10 @@ Context:
   * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
   * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
   * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
+  * **Logs**:
+    * Application logs `docker-compose logs`
+    * Linux-based OS logs: `/var/log/messages`
+    * ssh logs `/var/log/audit/audit.log`
 * **UX/UI**
   * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
   * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
@@ -128,7 +132,6 @@ Context:
   * Matplotlib [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
 * **API**
   * Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
-  * 
 * **Database / DataWarehouse**
   * PostgreSQL ([datetime functs](https://www.postgresql.org/docs/9.1/functions-datetime.html))
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
