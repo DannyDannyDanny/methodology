@@ -12,7 +12,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 
 ## Repo Roadmap
 
-* [x] 2021Q3: Decide on sections
+* [x] ~2021Q3: Decide on sections~
 * [ ] 2021Q4: Split files (Development, Delivery)
 * [ ] 2022Q1: Delivery Methodology
 * [ ] 2022Q2: Consultancy Methodology
@@ -39,8 +39,9 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations |
 |:brain:|`:brain:`| statistical modelling, training and prediction |
 |:pushpin:|`:pushpin:`| dependency and environment versioning |
+|:whale: |`:whale:`| virtualization, containerization and architecture changes |
 |:see_no_evil:|`:see_no_evil:`| changes to `.*ignore` or local files |
-|:mag: |`:mag:`| changes in connection with PR-review change-requests |
+|:mag: |`:mag:`| PR-review change-requests |
 
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
 Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
