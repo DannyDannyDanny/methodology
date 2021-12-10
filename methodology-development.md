@@ -129,7 +129,9 @@ Context:
   * [AsciiFlow](https://asciiflow.com/#/)
   * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
   * [Tikz Editor](https://tikzcd.yichuanshen.de)
-  * Matplotlib [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
+  * Matplotlib
+    * [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
+    * [cheatsheets](https://matplotlib.org/cheatsheets/)
 * **API**
   * Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
 * **Database / DataWarehouse**
