@@ -22,6 +22,8 @@ The project plan should answer the following questions:
 * The efficiency of the project?
 * The quality of the product?
 
+### Project Planning Resources
+* [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 
 
 [^1]: "_Scrum is a lightweight framework that helps people, teams and organizations generate value through
