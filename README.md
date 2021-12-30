@@ -4,7 +4,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 
 * [Repo Roadmap](#repo-roadmap)
 * [Gitmoji Reference](#gitmoji-reference)
-* [Project planngin](project_planning.md)
+* [Project planning](project_planning.md)
 * [Development](methodology-development.md)
 
 ## Repo Roadmap
