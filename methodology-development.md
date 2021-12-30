@@ -128,6 +128,7 @@ Context:
     * [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
     * [cheatsheets](https://matplotlib.org/cheatsheets/)
 * **API**
+  * JSON API is the easiet API - [follow the rules](https://jsonapi.org/format/#)
   * Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
 * **Database / DataWarehouse**
   * [Pandas cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
