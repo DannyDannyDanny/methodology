@@ -12,10 +12,7 @@
 * Deploy
 * Deliver?
 
-## Setup
-### Project Planning
-* Always have some kind of roadmap
-  * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
+## Develop
 * **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Environments**
   * You should be able to run the code and develop without a dedicated server. Get virtualized with [docker-compose](https://docs.docker.com/compose/compose-file/compose-file-v3/).
@@ -27,8 +24,6 @@
   * Add an [`.EditorConfig` file](https://editorconfig.org/)
 * **Documentation**
   * Your repo should have a one-liner for isntallation andd running: (docker-compose.yml + `doco up`)
-
-## Develop
 
 ### Python Developement
 
