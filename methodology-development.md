@@ -151,6 +151,7 @@ Context:
   * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
 * **AI / ML / Modelling**
   * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
+  * [Machine Learning Master](https://machinelearningmastery.com/) is a great resource!
 * **Philosophy / Mindset / Principles**
   * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
   * _doing it right_ vs _doing it on time_
