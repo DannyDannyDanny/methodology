@@ -164,6 +164,7 @@ Context:
   * Collaboration (tools: [csvbox](https://csvbox.io/), [pyodide](https://github.com/pyodide/pyodide))
   * Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
   * keeping the repo nice ![Coverage badge][coverage-badge]
+  * keep repo nice with [makefile](https://makefiletutorial.com/)
 * **Misc**
   * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
   * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
