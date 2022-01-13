@@ -131,6 +131,7 @@ Context:
   * JSON API is the easiet API - [follow the rules](https://jsonapi.org/format/#)
   * Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
 * **Database / DataWarehouse**
+  * [sqlAlchemy usage](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
   * [Pandas cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
   * PostgreSQL ([datetime functs](https://www.postgresql.org/docs/9.1/functions-datetime.html))
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
