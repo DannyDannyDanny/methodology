@@ -18,6 +18,8 @@
   * Deploy using Docker. Docker keeps all your application events separate from OS events.
 * **Setup Version Control**
   * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214).
+  * Setup git credentials
+    * `git config --local user.email (initialis)@(client comain)` 
   * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
   * Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
   * Add an [`.EditorConfig` file](https://editorconfig.org/)
