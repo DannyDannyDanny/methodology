@@ -5,7 +5,6 @@
   * [ ] Information that doesn't fit into phases goes to [_Topic Hierarchy_](#topic-hierarchy)
   * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
 
-
 ### Sections
 * [Setup](#setup) ([Version Control](#setup-version-control), [Environments](#setup-server-management), Documentation)
 * [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
@@ -99,6 +98,15 @@ Context:
 # -> feature1 gets change requests
 # -> feature1 is rejected and made obsolete
 ```
+
+#### Project Infrastructure
+
+|Project Infrastructure | Example |
+|----|----|
+| Issue / Project tracking | Jira |
+| Code repository | Github / RedMine |
+| Knowledge Base / Document Center | Confluence / RedMine |
+| Docker registry | Docker Hub / Harbor / AWS Contanier Registry |
 
 #### Topic Hierarchy
 * **Documentation**
