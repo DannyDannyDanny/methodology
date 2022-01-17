@@ -106,7 +106,8 @@ Context:
 | Issue / Project tracking | Jira |
 | Code repository | Github / RedMine |
 | Knowledge Base / Document Center | Confluence / RedMine |
-| Docker registry | Docker Hub / Harbor / AWS Contanier Registry |
+| Docker registry[^1] | Docker Hub / Harbor / AWS Contanier Registry |
+
 
 #### Topic Hierarchy
 * **Documentation**
@@ -185,3 +186,5 @@ Context:
   * [NightOwal](https://nightowl.kramser.xyz/)
 
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
+
+[^1]: Read about the [difference between docker repos and registries](https://stackoverflow.com/a/34004418/5684214)
