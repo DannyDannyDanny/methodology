@@ -15,7 +15,10 @@
 * **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Environments**
   * You should be able to run the code and develop without a dedicated server. Get virtualized with [docker-compose](https://docs.docker.com/compose/compose-file/compose-file-v3/).
-  * Deploy using Docker. Docker keeps all your application events separate from OS events.
+  * Deploy using Docker + Docker-Compose. Docker keeps all your application events separate from OS events.
+    * Add to `.bashrc` on remote server (remove or replace `ENV.`): 
+    * `alias doco="docker-compose -f docker-compose.ENV.yml"; cd /opt/project/`
+
 * **Setup Version Control**
   * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214).
   * Setup git credentials
