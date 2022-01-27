@@ -6,6 +6,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 * [Gitmoji Reference](#gitmoji-reference)
 * [Project planning](project_planning.md)
 * [Development](methodology-development.md)
+* [Danny's vim cheat sheet](vim.md)
 
 ## Repo Roadmap
 
