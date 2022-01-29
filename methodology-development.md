@@ -38,6 +38,7 @@
   * [Invoke](https://www.pyinvoke.org/) & [Fabric](https://www.fabfile.org/) for remote deployment
 * Writing good python code:
   * Avoid [code smells](https://refactoring.guru/refactoring/smells)
+  * Write [code with structre](https://docs.python-guide.org/writing/structure/#structure-of-code-is-key)
   * [pipx](https://pypi.org/project/pipx/) or [pyenv](https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/) for environment management. If the machine has python3.x installed, use [venv](https://docs.python.org/3/library/venv.html) from the standard library.
   * [Loguru](https://github.com/Delgan/loguru) for logging
 
