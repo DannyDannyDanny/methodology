@@ -13,7 +13,8 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 * [x] ~2021Q3: Decide on sections~
 * [x] 2021Q4: Split files (Development, Delivery)
 * [ ] 2022Q1: Delivery Methodology + [git commit template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733#file-git-commit-template-md)
-* [ ] 2022Q2: Consultancy Methodology
+* [ ] 2022Q2: Move dotfiles to own repo
+* [ ] 2022Q3: Consultancy Methodology
 
 ## Gitmoji reference
 
