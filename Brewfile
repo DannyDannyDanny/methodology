@@ -6,9 +6,14 @@ tap "homebrew/cask"
 brew "tree"
 brew "mas"
 brew "handbrake"
-brew "vim"  # preinstalled vim is bad, macvim is bad
+# brew "macvim"
+brew "vim"
 brew "ack"
+brew "profanity" # XMPP client
 
+
+cask "pgadmin4" # pgsql database admin tool
+cask "macsvg"   # svg editor
 cask "firefox"
 cask "iterm2"
 # cask "karabiner-elements"
@@ -22,4 +27,7 @@ cask "clickup"
 cask "visual-studio-code"
 cask "discord"
 # cask "adium"
+# # adium or pidgin?
+# cask "pidgin"
+# # Cask or brew install pidgin
 # cask "fork"
