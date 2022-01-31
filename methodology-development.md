@@ -183,6 +183,7 @@ Context:
   * keeping the repo nice ![Coverage badge][coverage-badge]
   * keep repo nice with [makefile](https://makefiletutorial.com/)
 * **Misc**
+  * [Use NestedText](https://nestedtext.org/en/latest/alternatives.html#): No YAML, TOML, or INI. CSV/TSV is acceptable.
   * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
   * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
   * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
