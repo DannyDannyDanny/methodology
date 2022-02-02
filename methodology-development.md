@@ -18,6 +18,7 @@
   * Deploy using Docker + Docker-Compose. Docker keeps all your application events separate from OS events.
     * Add to `.bashrc` on remote server (remove or replace `ENV.`): 
     * `alias doco="docker-compose -f docker-compose.ENV.yml"; cd /opt/project/`
+* Remaster [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/)
 
 * **Setup Version Control**
   * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214).
