@@ -17,7 +17,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'rrethy/vim-illuminate'  	" highlight other uses of the current word under the cursor
 Plugin 'mileszs/ack.vim'  		    " grep-like source code search tool
-Plugin 'itchyny/calendar.vim'     " calendar
 Bundle 'Valloric/YouCompleteMe'
 " Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
