@@ -1,4 +1,4 @@
-" This VIMRC file is for MACOS
+" Tested on Ubuntu 21.04 with VIM - Vi IMproved 8.2
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -16,7 +16,8 @@ Plugin 'nvie/vim-flake8'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
 Plugin 'rrethy/vim-illuminate'  	" highlight other uses of the current word under the cursor
-Plugin 'mileszs/ack.vim'  		" grep-like source code search tool
+Plugin 'mileszs/ack.vim'  		    " grep-like source code search tool
+Plugin 'itchyny/calendar.vim'     " calendar
 Bundle 'Valloric/YouCompleteMe'
 " Plugin 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 
