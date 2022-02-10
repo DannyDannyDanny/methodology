@@ -5,10 +5,27 @@ adaptive solutions for complex problems.[^1]
 
 ## Project lifecycle
 
-A project's lifecycle can consist of many steps:
-(Planning, Ideation / Design, Development, Documentation, Deployment, Launch, Maintenance)
+* **New atlassian space** (?)
+* **Jira-project setup**
+  * Choose the simplest (company managed) project
+  * Choose a project acronym / codename for all project related IDs
+  * Invite all relevant users to space
+* **Confluence-workspace setup**
+  * Choose simplest workspace, name: _<jira-name>_-workspace.
+  * Add welcome page with information and links:
+    * Confluence (main documentation page, rules for making new pages, good practice etc.)
+    * Jira-project (epics overview, template issues etc.)
+* Make roadmap (Project Plan) with next phases:
+  * Planning
+  * Ideation / Design
+  * Development
+  * Documentation
+  * Deployment
+  * Launch
+  * Maintenance
+* Invite all relevant users
 
-### Project Plan
+## Project Plan
 
 The project plan should answer the following questions:
 
