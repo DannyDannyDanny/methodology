@@ -5,7 +5,8 @@ adaptive solutions for complex problems.[^1]
 
 ## Project lifecycle
 
-* **New atlassian space** (?)
+* Re-read [Atlassian Agile/Scrum Guide](https://www.atlassian.com/agile/scrum)
+* **New atlassian space**
 * **Jira-project setup**
   * Choose the simplest (company managed) project
   * Choose a project acronym / codename for all project related IDs
