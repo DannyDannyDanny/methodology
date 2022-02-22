@@ -11,6 +11,7 @@ adaptive solutions for complex problems.[^1]
   * Choose the simplest (company managed) project
   * Choose a project acronym / codename for all project related IDs
   * Invite all relevant users to space
+  * ⚠️ the workflow should have (backlog, in progress, **stuck**, done)
 * **Confluence-workspace setup**
   * Choose simplest workspace, name: _<jira-name>_-workspace.
   * Add welcome page with information and links:
