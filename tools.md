@@ -54,6 +54,7 @@
   * [Machine Learning Master](https://machinelearningmastery.com/) is a great resource!
 * **Philosophy / Mindset / Principles**
   * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
+  *  _All gui is bloat and we should just go back to using the abacus_ /NashFPV (youtube comment)
   * _doing it right_ vs _doing it on time_
   * Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
   * [Software Design X Dieter Rams](https://github.com/zedr/dieter-rams-10-applied-to-software)
