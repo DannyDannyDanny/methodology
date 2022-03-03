@@ -58,6 +58,7 @@
   * _doing it right_ vs _doing it on time_
   * Closed Source Software: If you cannot check what it does / how it works, do not use it for the sake of security.
   * [Software Design X Dieter Rams](https://github.com/zedr/dieter-rams-10-applied-to-software)
+  * [approaching hard problems](https://praeclarum.org/2022/02/19/hard-problems.html)
 * **Collaboration / Working in a team**
   * [SPACE (satification, performance, activity, communication, efficiency)](https://queue.acm.org/detail.cfm?id=3454124)
   * [Google's Four DevOp KPIs](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance)
