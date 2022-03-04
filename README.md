@@ -6,6 +6,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 * [Gitmoji Reference](#gitmoji-reference)
 * [Planning](project_planning.md)
 * Ideation / Design (coming soon)
+  * [Design Process](https://uxtools.co/blog/what-no-one-explains-about-the-design-process/)
 * [Development](methodology-development.md)
 * Documentation (coming soon)
 * Deployment (coming soon)
