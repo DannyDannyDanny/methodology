@@ -50,10 +50,11 @@
   * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
 * **Deploying**
   * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
-* 🧠 **AI / ML / Modelling**
+* 🧠 **Algorithms / AI / ML / Modelling**
   * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
   * [Machine Learning Master](https://machinelearningmastery.com/) is a great resource!
   * [Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html#toc)
+  * [Algorithms for Modern Hardware](https://en.algorithmica.org/hpc/)
 * **Philosophy / Mindset / Principles**
   * [the-importance-of-humility-in-software-development](https://humbletoolsmith.com/2020/08/10/the-importance-of-humility-in-software-development/)
   *  _All gui is bloat and we should just go back to using the abacus_ /NashFPV (youtube comment)
