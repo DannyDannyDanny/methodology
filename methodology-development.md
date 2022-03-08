@@ -13,6 +13,10 @@
 | Knowledge Base / Document Center | Confluence / RedMine |
 | Docker registry[^1] | Docker Hub / Harbor / AWS Contanier Registry |
 
+#### Development Cycle
+
+* [Agile](https://www.atlassian.com/agile/scrum/sprints)
+
 
 ### Sections
 * [Setup](#setup) ([Version Control](#setup-version-control), [Environments](#setup-server-management), Documentation)
