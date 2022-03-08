@@ -7,4 +7,5 @@
   * bash: `alias doco="docker-compose"`
   * use vim bindings: `bindkey -v`
 * Linux
+  * [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/)
   * See issue #5 : [#5](https://github.com/DannyDannyDanny/methodology/issues/5)
