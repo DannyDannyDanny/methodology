@@ -10,10 +10,11 @@
   * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
   * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
   * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
-  * **Logs**:
-    * Application logs `docker-compose logs`
-    * Linux-based OS logs: `/var/log/messages`
-    * ssh logs `/var/log/audit/audit.log`
+  * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
+* **Logs**:
+  * Application logs `docker-compose logs`
+  * Linux-based OS logs: `/var/log/messages`
+  * ssh logs `/var/log/audit/audit.log`
 * **UX/UI**
   * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
   * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
@@ -48,8 +49,6 @@
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
   * [Music for programming](https://www.musicforprogramming.net)
   * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
-* **Deploying**
-  * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
 * 🧠 **Algorithms / AI / ML / Modelling**
   * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
   * [Machine Learning Master](https://machinelearningmastery.com/) is a great resource!
@@ -78,9 +77,6 @@
   * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
   * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
   * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
-* Mac Software
-  * [Lulu Firewall](https://objective-see.com/products/lulu.html)
-  * [NightOwal](https://nightowl.kramser.xyz/)
 
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
 
