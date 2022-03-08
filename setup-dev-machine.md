@@ -8,4 +8,5 @@
   * use vim bindings: `bindkey -v`
 * Linux
   * [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/)
+  * File explorer [ranger](https://www.digitalocean.com/community/tutorials/installing-and-using-ranger-a-terminal-file-manager-on-a-ubuntu-vps)
   * See issue #5 : [#5](https://github.com/DannyDannyDanny/methodology/issues/5)
