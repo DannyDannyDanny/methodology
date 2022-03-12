@@ -1,30 +1,7 @@
-### Document Roadmap
-  * [ ] Each section has heading, [sections-link](#sections) and at least one bullet point
-  * [ ] Each section should covers fixed topics (version control, systems management, docuementation)
-  * [ ] Information that doesn't fit into phases goes to [_Topic Hierarchy_](#topic-hierarchy)
-  * [ ] Add [Custom utils](https://dev.to/kenbellows/a-few-python-repl-config-tricks-3o6i).
- 
- #### Project Infrastructure
+### Development
+* Development Cycle [Agile](https://www.atlassian.com/agile/scrum/sprints)
 
-|Project Infrastructure | Example |
-|----|----|
-| Issue / Project tracking | Jira |
-| Code repository | Github / RedMine |
-| Knowledge Base / Document Center | Confluence / RedMine |
-| Docker registry[^1] | Docker Hub / Harbor / AWS Contanier Registry |
-
-#### Development Cycle
-
-* [Agile](https://www.atlassian.com/agile/scrum/sprints)
-
-
-### Sections
-* [Setup](#setup) ([Version Control](#setup-version-control), [Environments](#setup-server-management), Documentation)
-* [Develop](#develop) ([Version Control](#develop-with-version-control), Server Management, Documentation)
-* Deploy
-* Deliver?
-
-## Develop
+## Development Infrastructure
 * **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Environments**
   * You should be able to run the code and develop without a dedicated server. Get virtualized with [docker-compose](https://docs.docker.com/compose/compose-file/compose-file-v3/).
