@@ -3,6 +3,16 @@
 In a project people, teams and organizations generate value through
 adaptive solutions for complex problems.[^1]
 
+#### Project Infrastructure
+
+| Tool | Example |
+|----|----|
+| Code repository | Github |
+| Issue / Project tracking | Jira |
+| Knowledge Base / Document Center | Confluence |w
+| Docker registry[^1] | Docker Hub / Harbor / AWS Contanier Registry |
+
+
 ## Project lifecycle
 
 * Re-read [Atlassian Agile/Scrum Guide](https://www.atlassian.com/agile/scrum)
