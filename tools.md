@@ -1,11 +1,5 @@
 # Tools
 
-* **Documentation**
-  * Use [Google's Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
-  * Conceptual graphical documentation as inline embedded images.
-  * Save Matplotlib / Seaborn plots as `.svg`.
-  * Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
-  * Scanned / photographed illustrations should be cropped, contrast and alligned.
 * **DevOps**
   * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
   * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
