@@ -8,7 +8,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 * Ideation / Design (coming soon)
   * [Design Process](https://uxtools.co/blog/what-no-one-explains-about-the-design-process/)
 * [Development](methodology-development.md)
-* Documentation (coming soon)
+* [Documentation](documentation.md)
 * Deployment (coming soon)
 * Launch (coming soon)
 * Maintenance (coming soon)
