@@ -14,10 +14,4 @@
 
 🔖 Further reading:
 * [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/)
-
-### Other notes
-
-* `.zshrc`
-  * During zsh setup, a `.zhrc` file is generated and left in the root. The following .zshrc content should extend (rather than replace) your `.zshrc`.
-  * bash: `alias doco="docker-compose"`
-  * use vim bindings: `bindkey -v`
+* [LARBS progs.csv](https://github.com/LukeSmithxyz/LARBS/blob/master/progs.csv)
