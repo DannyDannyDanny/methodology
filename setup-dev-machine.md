@@ -1,6 +1,22 @@
+# Dev Machine
+
+🚧 I'm currently in the process of [switching to Linux](https://github.com/DannyDannyDanny/methodology/issues/5).
+
+🧤 Get comfortable with these tools on a system you are familiar with like MacOS or Windows (via Windows-Subsystem-Linux).
+
+
+| Tool |Linux-Compatible | MacOS-compatible | Description |
+|--- |--- | --- | --- |
+| [`zsh`](https://www.zsh.org/) + [omz](https://github.com/ohmyzsh/ohmyzsh) | ✅ |  ✅ | Preferred Shell + Configurator |
+| [`lf`](https://github.com/gokcehan/lf) | ✅ |  ✅ | CLI file browser |
+| [`vim`](https://github.com/gokcehan/lf) | ✅ |  ✅ | CLI text editor  |
+| [`mutt`](http://www.mutt.org/) | ✅ |  ✅ | CLI email client |
+
+### Other notes
+
 * `.vimrc`
   * [Python x Vim](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
-  * [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start)
+   * [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start)
   * [Vim bindings](https://stackoverflow.com/a/5400978/5684214)
 * `.zshrc`
   * During zsh setup, a `.zhrc` file is generated and left in the root. The following .zshrc content should extend (rather than replace) your `.zshrc`.
