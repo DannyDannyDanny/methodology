@@ -1,3 +1,7 @@
+" TODO:
+" Switch to vim-plug
+" [Vim bindings](https://stackoverflow.com/a/5400978/5684214)
+
 " Tested on Ubuntu 21.04 with VIM - Vi IMproved 8.2
 set nocompatible              " be iMproved, required
 filetype off                  " required
