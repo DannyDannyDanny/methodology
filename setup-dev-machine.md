@@ -10,7 +10,7 @@
 | [`zsh`](https://www.zsh.org/) + [omz](https://github.com/ohmyzsh/ohmyzsh) | ✅ |  ✅ | Preferred Shell + Configurator |
 | [`lf`](https://github.com/gokcehan/lf) | ✅ |  ✅ | CLI file browser |
 | [`vim`](https://github.com/gokcehan/lf) | ✅ |  ✅ | CLI text editor  |
-| [`mutt`](http://www.mutt.org/) | ✅ |  ✅ | CLI email client |
+| ~[`mutt`](http://www.mutt.org/)~ | ✅ |  ✅ | ~CLI email client~ (just use a browser for now) |
 
 🔖 Further reading:
 * [Unix as IDE](https://blog.sanctum.geek.nz/series/unix-as-ide/)
