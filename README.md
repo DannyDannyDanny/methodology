@@ -19,10 +19,12 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 ## Repo Roadmap
 
 * [x] ~2021Q3: Decide on sections~
-* [x] 2021Q4: Split files (Development, Delivery)
-* [ ] 2022Q1: Delivery Methodology + [git commit template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733#file-git-commit-template-md)
+* [x] ~2021Q4: Split files (Development, Delivery)~
+* [ ] 2022Q1: Run linux on dev machine ([issue #5](https://github.com/DannyDannyDanny/methodology/issues/5))
 * [ ] 2022Q2: Move dotfiles to own repo
 * [ ] 2022Q3: Consultancy Methodology
+* [ ] 2022Q4: Delivery Methodology + [git commit template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733#file-git-commit-template-md)
+* [ ] 2023Q1: Consultancy Methodology
 
 ## Gitmoji reference
 
