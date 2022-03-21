@@ -12,7 +12,7 @@
 * **UX/UI**
   * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
   * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
-* **Visualization**
+* :eyes: **Visualization**
   * problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
   * Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
   * [AsciiFlow](https://asciiflow.com/#/)
@@ -22,6 +22,8 @@
     * [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
     * [cheatsheets](https://matplotlib.org/cheatsheets/)
   * [d3.js example](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
+  * Types of diagram:
+    * [Sequence Diagram](https://en.wikipedia.org/wiki/Sequence_diagram) w([Example:http](https://www.eventhelix.com/networking/http_sequence_diagram.pdf))
 * **API**
   * JSON API is the easiet API - [follow the rules](https://jsonapi.org/format/#)
   * Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
