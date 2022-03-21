@@ -18,6 +18,7 @@
   * [AsciiFlow](https://asciiflow.com/#/)
   * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
   * [Tikz Editor](https://tikzcd.yichuanshen.de)
+    * [Example: Tikz for Cryptographers](https://www.iacr.org/authors/tikz/)
   * Matplotlib
     * [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
     * [cheatsheets](https://matplotlib.org/cheatsheets/)
