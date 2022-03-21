@@ -45,7 +45,7 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:fire: |`:fire:`| remove (dead) code / file |
 |:alien:|`:alien:`| changes related to APIs, Databases, Network etc. |
 |:tada:|`:tada:`| clean / transform / validate _data_ |
-|:lipstick:|`:lipstick:`| improve UI / UX, CLI or visualizations |
+|:eyes:|`:eyes:`| improve UI / UX, CLI or visualizations (previously :lipstick:) |
 |:brain:|`:brain:`| statistical modelling, training and prediction |
 |:pushpin:|`:pushpin:`| dependency and environment versioning |
 |:whale: |`:whale:`| virtualization, containerization and architecture changes |
