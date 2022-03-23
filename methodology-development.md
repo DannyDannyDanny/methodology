@@ -15,6 +15,7 @@
   * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
   * Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
   * Add an [`.EditorConfig` file](https://editorconfig.org/)
+  * Add [git commit template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733#file-git-commit-template-md)
 * **Documentation**
   * Your repo should have a one-liner for isntallation andd running: (docker-compose.yml + `doco up`)
 
@@ -93,4 +94,3 @@ Context:
 # -> feature1 gets change requests
 # -> feature1 is rejected and made obsolete
 ```
-
