@@ -1,13 +1,23 @@
 #!/bin/sh
-# run as root
-pacman -Syy
-pacman -Syu
+# 1. install artix-cinnamon-openRC then run 
+# 2. run through this script, section by section
 
-# the following commands are run manually
-pacman -S --needed git base-devel
+
+# upgdate / upgrade
+sudo pacman -Syy
+sudo pacman -Syu
+
+# install basic shidd
+sudo pacman -S --needed git base-devel
+
+# 
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+
+# install programs
+yay -S librewolf-bin
+
 
 # kill the beep sound
 # this command needs to be saved into .bashrc or
