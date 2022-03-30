@@ -35,6 +35,7 @@
   * Consider SQL (but [don't use `select *`](https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/))
   * Be aware of [feature casualties of large databases](https://web.dev/streams/)
   * [Data Science - Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
+  * [Metabase](https://www.metabase.com/)
 * **Security**
   * Audit [security](https://hangar.tech/posts/our-dsq/)
   * Understand [SSH tunnels](https://robotmoon.com/ssh-tunnels/)
