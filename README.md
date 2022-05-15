@@ -19,7 +19,6 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 ## Repo Roadmap
 
 * 2022Q2: Linux Get Comfy
-  * [ ] Switch to NeoVim [issue #9](https://github.com/DannyDannyDanny/methodology/issues/9)
   * [ ] Merge [this gist](https://gist.github.com/DannyDannyDanny/6990a552029e1f31ce1f4b18ccb078fa) into this repo
 * [ ] 2022Q3: Consultancy Methodology
 * [ ] 2022Q4: Delivery Methodology
