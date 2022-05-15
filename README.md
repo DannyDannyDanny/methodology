@@ -19,7 +19,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 ## Repo Roadmap
 
 * 2022Q2: Linux Get Comfy
-  * [ ] Merge [this gist](https://gist.github.com/DannyDannyDanny/6990a552029e1f31ce1f4b18ccb078fa) into this repo
+  * [X] Merge [this gist](https://git.github.com/DannyDannyDanny/6990a552029e1f31ce1f4b18ccb078fa) into this repo
 * [ ] 2022Q3: Consultancy Methodology
 * [ ] 2022Q4: Delivery Methodology
 * [ ] 2023Q1: Consultancy Methodology

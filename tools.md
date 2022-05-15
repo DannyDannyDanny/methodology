@@ -75,7 +75,33 @@
   * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
   * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
   * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
-  * There's some gold nuggets this [reddit post](https://old.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/)
+
+# HotKeys
+* [Pandas CheatSheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
+* [GitMoji](https://gitmoji.carloscuesta.me/)
+* [My Own cheatsheet](https://gist.github.com/DannyDannyDanny/980b39048ca7c96c4aa7e8c56e917f2e)
+
+# Writing
+* [HemingwayApp](http://www.hemingwayapp.com)
+* [Anansi Short Stories](https://en.wikipedia.org/wiki/Anansi)
+* [Writing Great Mystery Plots](https://www.vulture.com/2019/10/charles-finch-on-how-he-writes-charles-lenox-mysteries.html)
+
+# Music
+Music production, streaming and whatnot.
+* [GuitarDashboard](https://guitardashboard.com)
+* [DrumBit](https://drumbit.app)
+* [BBC Samples](http://bbcsfx.acropolis.org.uk)
+* [Music Pods (FunkWhale)](https://funkwhale.audio/#get-started)
+
+# Photo / Video
+* [Vintage effect (ffmpeg)](https://ottverse.com/create-vintage-videos-using-ffmpeg/)
+
+# Prog/Misc
+* [Kinto Multi-OS shortcuts](https://github.com/rbreaves/kinto)
+* [On-Prem Speech-Transcribing](https://github.com/iceychris/LibreASR)
+* [What Distinguishes Engineers](https://faculty.washington.edu/ajko/papers/Li2019WhatDistinguishesEngineers.pdf)
+* [Architechts Playbook](https://nocomplexity.com/documents/arplaybook/index.html)
+* [Apple ML Intro](https://developer.apple.com/documentation/createml/creating_an_image_classifier_model)
 
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
 
