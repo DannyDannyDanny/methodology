@@ -18,9 +18,6 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 
 ## Repo Roadmap
 
-* 2022Q1: Linux
-  * [ ] Run linux on dev machine ([issue #5](https://github.com/DannyDannyDanny/methodology/issues/5))
-  * [ ] Move dotfiles to own repo (and install script)
 * 2022Q2: Linux Get Comfy
   * [ ] Switch to NeoVim [issue #9](https://github.com/DannyDannyDanny/methodology/issues/9)
   * [ ] Merge [this gist](https://gist.github.com/DannyDannyDanny/6990a552029e1f31ce1f4b18ccb078fa) into this repo
@@ -54,4 +51,4 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:mag: |`:mag:`| PR-review change-requests |
 
 Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
-Submit an [issue](https://github.com/DannyDannyDanny/gitmoji/issues) (or [Pull Request](https://github.com/DannyDannyDanny/gitmoji/pulls)).
+Submit an [issue](https://github.com/DannyDannyDanny/methodology/issues) (or [Pull Request](https://github.com/DannyDannyDanny/methodology/pulls)).
