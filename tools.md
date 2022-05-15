@@ -103,6 +103,213 @@ Music production, streaming and whatnot.
 * [Architechts Playbook](https://nocomplexity.com/documents/arplaybook/index.html)
 * [Apple ML Intro](https://developer.apple.com/documentation/createml/creating_an_image_classifier_model)
 
+## [Pike's 5 Rules](http://users.ece.utexas.edu/~adnan/pike.html)
+Rob Pike's 5 Rules of Programming
+
+* **Rule 1.** You can't tell where a program is going to spend its time. Bottlenecks occur in surprising places, so don't try to second guess and put in a speed hack until you've proven that's where the bottleneck is.
+* **Rule 2.** Measure. Don't tune for speed until you've measured, and even then don't unless one part of the code overwhelms the rest.
+* **Rule 3.** Fancy algorithms are slow when n is small, and n is usually small. Fancy algorithms have big constants. Until you know that n is frequently going to be big, don't get fancy. (Even if n does get big, use Rule 2 first.)
+* **Rule 4.** Fancy algorithms are buggier than simple ones, and they're much harder to implement. Use simple algorithms as well as simple data structures.
+* **Rule 5.** Data dominates. If you've chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.
+
+Pike's rules 1 and 2 restate Tony Hoare's famous maxim "Premature optimization is the root of all evil." Ken Thompson rephrased Pike's rules 3 and 4 as "When in doubt, use brute force.". Rules 3 and 4 are instances of the design philosophy KISS. Rule 5 was previously stated by Fred Brooks in The Mythical Man-Month. Rule 5 is often shortened to "write stupid code that uses smart objects".
+
+See also [Akins laws of spacecraft design](https://spacecraft.ssl.umd.edu/akins_laws.html)
+
+### Guides
+* [WiFi from the Terminal](https://www.linuxbabe.com/ubuntu/connect-to-wi-fi-from-terminal-on-ubuntu-18-04-19-04-with-wpa-supplicant)
+* [How to ssh properly](https://gravitational.com/blog/how-to-ssh-properly/)
+* [Pipenv on Ubuntu 18.04](https://gist.github.com/planetceres/8adb62494717c71e93c96d8adad26f5c)
+* [Conventions for Command Line Options](https://nullprogram.com/blog/2020/08/01/)
+* [Awesome README profiles](https://github.com/kautukkundan/Awesome-Profile-README-templates)
+* [NoHello (Team Communication)](https://www.nohello.com/2013/01/please-dont-say-just-hello-in-chat.html)
+* [IdownVotedBecause](https://idownvotedbecau.se/)
+
+### Ubunutu Server WiFi Setup
+```bash
+# bring up the wlan0
+sudo ifconfig wlan0 up
+
+# test that we can scan WiFi APs
+sudo iwlist wlan0 scan | grep ESSID
+
+# connect to configured network
+sudo wpa_supplicant -B -c /etc/wpa_supplicant.conf -i wlan0
+
+# request a ip address from DHCP server
+sudo dhclient wlan0
+
+# ip addr show wlan0
+ip addr show wlan0
+
+# test connection
+ping 8.8.8.8
+```
+
+### Python Debug
+```
+c -> continue?
+u -> until (lineno or) exec jumpout
+s -> step
+n -> next breakpoint
+```
+
+### Resources
+* [Custom Token](https://stackoverflow.com/questions/47492150/how-do-i-set-a-custom-token-for-a-jupyter-notebook/51105004)
+* [Remote Notebook](https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook)
+* [Raymon Hettinger Methodologies](https://www.youtube.com/watch?v=Uwuv05aZ6ug)
+
+### Docker one-liner
+```
+docker run -p 8888:8888 --name atp_jupy -e GRANT_SUDO=yes -e JUPYTER_ENABLE_LAB=yes -e JUPYTER_TOKEN="password" -v C:\Users\XXXX\Documents\:/home/jovyan/work --user root jupyter/datascience-notebook
+```
+
+### jupyter-lab config
+```
+jupyter-lab --generate-config
+# uncomment following lines in ~/.jupyter/jupyter_notebook_config.py
+c.NotebookApp.token = ''
+c.NotebookApp.password = ''
+
+# or just run
+
+python -m jupyter lab --no-browser --port=8889 --LabApp.token=password
+```
+
+### on unix / linux server
+```
+sudo apt-get update
+#sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev
+sudo apt-get install python3-pip python3-dev
+pip3 install virtualenv
+git clone <project>
+virtualenv <project>/
+cd <project>
+source bin/activate
+pip install jupyterlab
+python -m ipykernel install --user --name=verbose-adventure-env
+jupyter notebook --no-browser --port=8889 --NotebookApp.token=password
+```
+
+### on local machine
+```
+ssh -N -f -L localhost:8888:localhost:8889 <username>@<server_ip>
+```
+
+### in atom setup hydrogen:
+```json
+[{
+  "name": "Remote server",
+  "options": {
+    "baseUrl": "http://http://localhost:8889",
+    "token": "password"
+  }
+}]
+```
+
+
+### Console + Logging [[src](https://askubuntu.com/a/731237/882709)]
+Overwrite or Append program stdout to logfile while displaying stdout **and `stderr`**.
+To write the output of a command to a file, there are basically 10 commonly used ways.
+
+#### Overview:
+
+> <sub>*Please note that the `n.e.` in the syntax column means "not existing".*
+There is a way, but it's too complicated to fit into the column. You can find a helpful link in the List section about it.</sub>
+
+
+              || visible in terminal ||   visible in file   || existing
+      Syntax  ||  StdOut  |  StdErr  ||  StdOut  |  StdErr  ||   file
+    ==========++==========+==========++==========+==========++===========
+        >     ||    no    |   yes    ||   yes    |    no    || overwrite
+        >>    ||    no    |   yes    ||   yes    |    no    ||  append
+              ||          |          ||          |          ||
+       2>     ||   yes    |    no    ||    no    |   yes    || overwrite
+       2>>    ||   yes    |    no    ||    no    |   yes    ||  append
+              ||          |          ||          |          ||
+       &>     ||    no    |    no    ||   yes    |   yes    || overwrite
+       &>>    ||    no    |    no    ||   yes    |   yes    ||  append
+              ||          |          ||          |          ||
+     | tee    ||   yes    |   yes    ||   yes    |    no    || overwrite
+     | tee -a ||   yes    |   yes    ||   yes    |    no    ||  append
+              ||          |          ||          |          ||
+     n.e. (*) ||   yes    |   yes    ||    no    |   yes    || overwrite
+     n.e. (*) ||   yes    |   yes    ||    no    |   yes    ||  append
+              ||          |          ||          |          ||
+    |& tee    ||   yes    |   yes    ||   yes    |   yes    || overwrite
+    |& tee -a ||   yes    |   yes    ||   yes    |   yes    ||  append
+
+
+#### List:
+
+- `command > output.txt`
+
+  The standard output stream will be redirected to the file only, it will not be visible in the terminal. If the file already exists, it gets overwritten.
+
+- `command >> output.txt`
+
+  The standard output stream will be redirected to the file only, it will not be visible in the terminal. If the file already exists, the new data will get appended to the end of the file.
+
+- `command 2> output.txt`
+
+  The standard error stream will be redirected to the file only, it will not be visible in the terminal. If the file already exists, it gets overwritten.
+
+- `command 2>> output.txt`
+
+  The standard error stream will be redirected to the file only, it will not be visible in the terminal. If the file already exists, the new data will get appended to the end of the file.
+
+- `command &> output.txt`
+
+  Both the standard output and standard error stream will be redirected to the file only, nothing will be visible in the terminal. If the file already exists, it gets overwritten.
+
+- `command &>> output.txt`
+
+  Both the standard output and standard error stream will be redirected to the file only, nothing will be visible in the terminal. If the file already exists, the new data will get appended to the end of the file..
+
+- `command | tee output.txt`
+
+  The standard output stream will be copied to the file, it will still be visible in the terminal. If the file already exists, it gets overwritten.
+
+- `command | tee -a output.txt`
+
+  The standard output stream will be copied to the file, it will still be visible in the terminal. If the file already exists, the new data will get appended to the end of the file.
+
+- **(*)**
+
+  Bash has no shorthand syntax that allows piping only StdErr to a second command, which would be needed here in combination with `tee` again to complete the table. If you really need something like that, please look at ["How to pipe stderr, and not stdout?" on Stack Overflow](https://stackoverflow.com/q/2342826/4464570) for some ways how this can be done e.g. by swapping streams or using process substitution.
+
+- `command |& tee output.txt`
+
+  Both the standard output and standard error streams will be copied to the file while still being visible in the terminal. If the file already exists, it gets overwritten.
+
+- `command |& tee -a output.txt`
+
+  Both the standard output and standard error streams will be copied to the file while still being visible in the terminal. If the file already exists, the new data will get appended to the end of the file.
+
+# Homebrew
+```
+# homebrew
+imagemagick
+pyenv
+tmux
+tree
+sqlite
+
+# cask
+clickup
+atom
+```
+
+## git bash on windows server 2019
+```
+# what processes are using port 8888?
+$ netstat -aon | grep 8888
+  TCP    127.0.0.1:8888         0.0.0.0:0              LISTENING       4984
+
+-- kill process 4984
+$ tskill 4984
+```
+
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
 
 [^1]: Read about the [difference between docker repos and registries](https://stackoverflow.com/a/34004418/5684214)
