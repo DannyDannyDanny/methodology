@@ -29,6 +29,7 @@
   * JSON API is the easiet API - [follow the rules](https://jsonapi.org/format/#)
   * Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
 * **Database / DataWarehouse**
+  * [Pandas CheatSheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
   * [sqlAlchemy usage](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
   * [Pandas cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
   * PostgreSQL ([datetime functs](https://www.postgresql.org/docs/9.1/functions-datetime.html))
@@ -47,7 +48,7 @@
   * [git bash solarized :sun_with_face:](https://github.com/speedpacer/gitbash_solarized/issues)
   * [Music for programming](https://www.musicforprogramming.net)
   * [OpenStack](https://docs.openstack.org/hacking/latest/user/hacking.html#styleguide): Linting and Pre-commit Hooks
-* 🧠 **Algorithms / AI / ML / Modelling**
+* :brain: **Algorithms / AI / ML / Modelling**
   * [open source cousin to GPL3](https://github.com/kingoflolz/mesh-transformer-jax)
   * [Machine Learning Master](https://machinelearningmastery.com/) is a great resource!
   * [Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html#toc)
@@ -75,11 +76,6 @@
   * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
   * Follow [naming conventions](https://visualgit.readthedocs.io/en/latest/pages/naming_convention.html)
   * Follow [software engineering laws](https://www.netmeister.org/blog/software-engineering-laws.html)
-
-# HotKeys
-* [Pandas CheatSheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
-* [GitMoji](https://gitmoji.carloscuesta.me/)
-* [My Own cheatsheet](https://gist.github.com/DannyDannyDanny/980b39048ca7c96c4aa7e8c56e917f2e)
 
 # Writing
 * [HemingwayApp](http://www.hemingwayapp.com)
@@ -154,10 +150,6 @@ s -> step
 n -> next breakpoint
 ```
 
-### Resources
-* [Custom Token](https://stackoverflow.com/questions/47492150/how-do-i-set-a-custom-token-for-a-jupyter-notebook/51105004)
-* [Remote Notebook](https://amber-md.github.io/pytraj/latest/tutorials/remote_jupyter_notebook)
-* [Raymon Hettinger Methodologies](https://www.youtube.com/watch?v=Uwuv05aZ6ug)
 
 ### Docker one-liner
 ```
@@ -174,37 +166,6 @@ c.NotebookApp.password = ''
 # or just run
 
 python -m jupyter lab --no-browser --port=8889 --LabApp.token=password
-```
-
-### on unix / linux server
-```
-sudo apt-get update
-#sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev
-sudo apt-get install python3-pip python3-dev
-pip3 install virtualenv
-git clone <project>
-virtualenv <project>/
-cd <project>
-source bin/activate
-pip install jupyterlab
-python -m ipykernel install --user --name=verbose-adventure-env
-jupyter notebook --no-browser --port=8889 --NotebookApp.token=password
-```
-
-### on local machine
-```
-ssh -N -f -L localhost:8888:localhost:8889 <username>@<server_ip>
-```
-
-### in atom setup hydrogen:
-```json
-[{
-  "name": "Remote server",
-  "options": {
-    "baseUrl": "http://http://localhost:8889",
-    "token": "password"
-  }
-}]
 ```
 
 
@@ -311,5 +272,6 @@ $ tskill 4984
 ```
 
 [coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
+
 
 [^1]: Read about the [difference between docker repos and registries](https://stackoverflow.com/a/34004418/5684214)
