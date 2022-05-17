@@ -14,14 +14,15 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 * Maintenance (coming soon)
 * [Data Storage](data_storage.md)
 * [Danny's vim cheat sheet](vim.md)
-* [Tools](tools.md) (🚧 under construction 🚧)
+* [Tools](tools.md) (:construction: under construction :construction:)
 
 ## Repo Roadmap
 
-* 2022Q2: Linux Get Comfy
-  * [X] Merge [this gist](https://git.github.com/DannyDannyDanny/6990a552029e1f31ce1f4b18ccb078fa) into this repo
-* [ ] 2022Q3: Consultancy Methodology
-* [ ] 2022Q4: Delivery Methodology
+* [ ] 2022Q3: Consultancy & Delivery Methodology
+  * [ ] [Planning](project_planning.md)
+  * [ ] Contract clauses
+  * [ ] Project phases
+  * [ ] Deliverables
 * [ ] 2023Q1: Consultancy Methodology
 
 ## Gitmoji reference
