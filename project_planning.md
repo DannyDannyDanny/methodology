@@ -49,11 +49,12 @@ The project plan should answer the following questions:
 * What are the expected dependencies in the product?
 * What quality metrics will define?
 * The efficiency of the project?
-* The quality of the product?
+* The quality of the product
 
 ### Project Planning Resources
 * [non-linear roadmaps](https://productcrunch.substack.com/p/escaping-the-roadmap-trap)
 
+## Domain Knowledge /
 
 [^1]: "_Scrum is a lightweight framework that helps people, teams and organizations generate value through
   adaptive solutions for complex problems_" [Scrum](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf)
