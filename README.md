@@ -4,7 +4,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 
 * [Repo Roadmap](#repo-roadmap)
 * [Gitmoji Reference](#gitmoji-reference)
-* [Planning](project_planning.md)
+* [Planning](project_planning_contracting.md)
 * Ideation / Design (coming soon)
   * [Design Process](https://uxtools.co/blog/what-no-one-explains-about-the-design-process/)
 * [Development](methodology-development.md)
@@ -13,13 +13,12 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 * Launch (coming soon)
 * Maintenance (coming soon)
 * [Data Storage](data_storage.md)
-* [Danny's vim cheat sheet](vim.md)
 * [Tools](tools.md) (:construction: under construction :construction:)
 
 ## Repo Roadmap
 
 * [ ] 2022Q3: Consultancy & Delivery Methodology
-  * [ ] [Planning](project_planning.md)
+  * [ ] [Planning](project_planning_contracting.md)
   * [ ] Contract clauses
   * [ ] Project phases
   * [ ] Deliverables
