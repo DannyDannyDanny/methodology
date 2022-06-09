@@ -1,5 +1,7 @@
 # Data Storeage
 
+Passwords and credentials. Use KeePass-based password managers.
+
 ## Databases
 
 * [SQLite](https://docs.python.org/3/library/sqlite3.html) (RDMS)
