@@ -6,12 +6,13 @@
 * **Setup Environments**
   * You should be able to run the code and develop without a dedicated server. Get virtualized with [docker-compose](https://docs.docker.com/compose/compose-file/compose-file-v3/).
   * Deploy using Docker + Docker-Compose. Docker keeps all your application events separate from OS events.
-    * Add to `.bashrc` on remote server (remove or replace `ENV.`): 
+    * Add to `.bashrc` on remote server (remove or replace `ENV.`):
     * `alias doco="docker-compose -f docker-compose.ENV.yml"; cd /opt/project/`
 * **Setup Version Control**
   * Connect to your repos using [ssh](https://stackoverflow.com/a/65415202/5684214).
+  * [Get good at git](https://gitexercises.fracz.com/)
   * Setup git credentials
-    * `git config --local user.email (initialis)@(client comain)` 
+    * `git config --local user.email (initialis)@(client comain)`
   * Install and use [pre-commit hooks](https://pre-commit.com/) on your dev machine
   * Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
   * Add an [`.EditorConfig` file](https://editorconfig.org/)
@@ -52,7 +53,7 @@ git clone <repo> <local_name>
 git checkout <feature/featurename>
 
 # optional if you switched branch on the last step
-# switched branch: branch out from 
+# switched branch: branch out from
 git checkout <feature/newfeature>
 git branch <feature/newfeature>
 git push --set-upstream origin <feature/newfeature>
