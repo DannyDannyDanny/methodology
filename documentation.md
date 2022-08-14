@@ -8,7 +8,9 @@ The setting up of Jira & Confluence is outlined in [Project Lifecycle](project_p
 * Save Matplotlib / Seaborn plots as `.svg`.
 * Sketches and handwritten illustrations scanned / photographed as `.png`/`.jpg`.
 * Scanned / photographed illustrations should be cropped, contrast and alligned.
-* [Technical writing](https://pivic.blog/blog/technical-writing/)
+* Technical Writing resources
+  * [Pivic technical writing](https://pivic.blog/blog/technical-writing/)
+  * [HNews comment](https://news.ycombinator.com/item?id=32344610)
 
 ### Markdown Tips
 
