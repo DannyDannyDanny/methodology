@@ -71,6 +71,7 @@
   * Resolve [Joel's 12 Questions](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
   * keeping the repo nice ![Coverage badge][coverage-badge]
   * keep repo nice with [makefile](https://makefiletutorial.com/)
+    * [your makefiles are wrong](https://tech.davis-hansson.com/p/make/)
 * **Misc**
   * [Use NestedText](https://nestedtext.org/en/latest/alternatives.html#): No YAML, TOML, or INI. CSV/TSV is acceptable.
   * [Things you should do now](https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/)
