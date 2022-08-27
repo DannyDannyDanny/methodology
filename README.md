@@ -14,6 +14,7 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 * Maintenance (coming soon)
 * [Data Storage](data_storage.md)
 * [Tools](tools.md) (:construction: under construction :construction:)
+* [philosophy](philosophy.md)
 
 ## Repo Roadmap
 
