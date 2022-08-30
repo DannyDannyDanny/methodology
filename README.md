@@ -52,5 +52,6 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:see_no_evil:|`:see_no_evil:`| changes to `.*ignore` or local files |
 |:mag: |`:mag:`| PR-review change-requests |
 
-Missing a gitmoji? Get [inspiration](https://gist.github.com/rxaviers/7360908).
+Missing a gitmoji? Take a look at
+[emojis with short shortcodes](emojis).
 Submit an [issue](https://github.com/DannyDannyDanny/methodology/issues) (or [Pull Request](https://github.com/DannyDannyDanny/methodology/pulls)).
