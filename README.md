@@ -15,6 +15,8 @@ This guide focuses on designing, developing and delivering Data-Processing Sytem
 * [Data Storage](data_storage.md)
 * [Tools](tools.md) (:construction: under construction :construction:)
 * [philosophy](philosophy.md)
+* `[scripts](scripts/)`
+  * [emoji_shortlist](scripts/emoji_shortlist.py)
 
 ## Repo Roadmap
 
