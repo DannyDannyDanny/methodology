@@ -6,8 +6,8 @@
   * must be in dictionary:
 """
 
-def is_in_dict():
-  return True
+def fetch_emojis():
+  return emojis_dict
 
 def is_in_dict():
   return True
