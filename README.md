@@ -53,5 +53,5 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:mag: |`:mag:`| PR-review change-requests |
 
 Missing a gitmoji? Take a look at
-[emojis with short shortcodes](emojis).
+[emojis with short shortcodes](emojis.md).
 Submit an [issue](https://github.com/DannyDannyDanny/methodology/issues) (or [Pull Request](https://github.com/DannyDannyDanny/methodology/pulls)).
