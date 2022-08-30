@@ -1,4 +1,5 @@
-"""prints my favorite emojis"""
+"""
+prints my favorite emojis
 
 * fetch all emojis
 * filter by shortcode
