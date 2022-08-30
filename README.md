@@ -52,9 +52,7 @@ Use the format `:gitmoji: <commit message>` in your commit messages. Only proper
 |:see_no_evil:|`:see_no_evil:`| changes to `.*ignore` or local files |
 |:mag: |`:mag:`| PR-review change-requests |
 
-Missing a gitmoji? Take a look at
-[word emojis with short shortcodes](emojis.md)
-made by this script
-[this script](scripts/emoji_shortlist.py)
-made by this script
-Submit an [issue](https://github.com/DannyDannyDanny/methodology/issues) (or [Pull Request](https://github.com/DannyDannyDanny/methodology/pulls)).
+Missing a gitmoji? Take a look at [word emojis with short shortcodes](emojis.md)
+made by this script [this script](scripts/emoji_shortlist.py)
+Submit an [issue](https://github.com/DannyDannyDanny/methodology/issues)
+(or [Pull Request](https://github.com/DannyDannyDanny/methodology/pulls)).
