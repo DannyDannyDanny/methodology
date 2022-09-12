@@ -1,31 +1,32 @@
 ## [DannyDannyDanny/Methodology](https://github.com/DannyDannyDanny/methodology/)
 
-This guide focuses on designing, developing and delivering Data-Processing Sytems, written primarily in python, deploying to Linux servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
+This guide focuses on designing, developing ~~and delivering~~ Data-Processing Sytems, written primarily in python, deploying to Linux servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
 
-* [Repo Roadmap](#repo-roadmap)
-* [Gitmoji Reference](#gitmoji-reference)
-* [Planning](project_planning_contracting.md)
-* Ideation / Design (coming soon)
-  * [Design Process](https://uxtools.co/blog/what-no-one-explains-about-the-design-process/)
-* [Development](methodology-development.md)
-* [Documentation](documentation.md)
+* [repo roadmap](#repo-roadmap)
+* [gitmoji](#gitmoji-reference)
+* [planning](project_planning_contracting.md)
+* ideation / design (coming soon)
+  * [design process](https://uxtools.co/blog/what-no-one-explains-about-the-design-process/)
+* [development](methodology-development.md)
+* [documentation](documentation.md)
 * Deployment (coming soon)
 * Launch (coming soon)
 * Maintenance (coming soon)
-* [Data Storage](data_storage.md)
-* [Tools](tools.md) (:construction: under construction :construction:)
+* [data management](data_storage.md)
+* [tools](tools.md) (:construction: under construction :construction:)
 * [philosophy](philosophy.md)
-* `[scripts](scripts/)`
+* [scripts](scripts/)
   * [emoji_shortlist](scripts/emoji_shortlist.py)
 
 ## Repo Roadmap
 
 * [ ] 2022Q3: Consultancy & Delivery Methodology
   * [ ] [Planning](project_planning_contracting.md)
-  * [ ] Contract clauses
-  * [ ] Project phases
-  * [ ] Deliverables
-* [ ] 2023Q1: Consultancy Methodology
+  * [ ] ~~Contract clauses~~
+  * [ ] ~~Project phases~~
+  * [ ] ~~Deliverables~~
+  * [ ] taiga.ai learning lessons
+* [ ] 2023Q1: Data Management Methodology
 
 ## Gitmoji reference
 
