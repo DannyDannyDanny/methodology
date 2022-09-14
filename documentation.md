@@ -12,6 +12,12 @@ The setting up of Jira & Confluence is outlined in [Project Lifecycle](project_p
   * [Pivic technical writing](https://pivic.blog/blog/technical-writing/)
   * [HNews comment](https://news.ycombinator.com/item?id=32344610)
 
+
+## Writing resource
+* [write and think more clearly](https://www.covingtoninnovations.com/mc/WriteThinkLearn.pdf)
+* [technical writing for engineers](https://www.cs.tufts.edu/~nr/pubs/learn.pdf)
+* [on technical writing](https://arturdryomov.dev/posts/on-technical-writing/)
+
 ### Markdown Tips
 
 * Use [Google's Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html) for written documentation.
