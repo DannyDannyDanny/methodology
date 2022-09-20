@@ -1,34 +1,38 @@
 # Tools
 
-* **DevOps**
-  * Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
-  * Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
-  * Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
-  * Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
-* **Logs**:
-  * Application logs `docker-compose logs`
-  * Linux-based OS logs: `/var/log/messages`
-  * ssh logs `/var/log/audit/audit.log`
-* **UX/UI**
-  * [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
-  * Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
+## DevOps
+* Do [CodeReviews](https://softwareengineering.stackexchange.com/questions/141005/how-would-you-know-if-youve-written-readable-and-easily-maintainable-code/141010#141010)
+* Use [scrum methodology](https://www.scruminc.com/scrum-glossary/)
+* Test and Production environments must be the same and very well defined: FreeBSD image or Ubunut Docker container
+* Virtualize Everything! [Awesome-Compose](https://github.com/docker/awesome-compose).
+
+## Logs
+* Application logs `docker-compose logs`
+* Linux-based OS logs: `/var/log/messages`
+* ssh logs `/var/log/audit/audit.log`
+
+## UX/UI
+* [Understand, Ideate and Test, Implement](https://uxtools.co/challenges/) UX.
+* Avoid [dark patterns](https://darkpatterns.org/types-of-dark-pattern.html)
 * :eyes: **Visualization**
-  * problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
-  * Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
-  * [AsciiFlow](https://asciiflow.com/#/)
-  * *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
-  * [Tikz Editor](https://tikzcd.yichuanshen.de)
-    * [Example: Tikz for Cryptographers](https://www.iacr.org/authors/tikz/)
-  * Matplotlib
-    * [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
-    * [cheatsheets](https://matplotlib.org/cheatsheets/)
-  * [d3.js example](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
-  * Types of diagram:
-    * [Sequence Diagram](https://en.wikipedia.org/wiki/Sequence_diagram) w([Example:http](https://www.eventhelix.com/networking/http_sequence_diagram.pdf))
-* **API**
-  * JSON API is the easiet API - [follow the rules](https://jsonapi.org/format/#)
-  * Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
-* **Database / DataWarehouse**
+* problem: it's difficult to include visualization in this workflow but essential to fast prototyping.
+* Perhaps [text-to-diagram](https://xosh.org/text-to-diagram/)
+* [AsciiFlow](https://asciiflow.com/#/)
+* *Spectral*, a [diverging colormap from matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html#diverging).
+* [Tikz Editor](https://tikzcd.yichuanshen.de)
+  * [Example: Tikz for Cryptographers](https://www.iacr.org/authors/tikz/)
+* Matplotlib
+  * [book of examples](https://raw.githubusercontent.com/rougier/scientific-visualization-book/master/pdf/book.pdf)
+  * [cheatsheets](https://matplotlib.org/cheatsheets/)
+* [d3.js example](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
+* Types of diagram:
+  * [Sequence Diagram](https://en.wikipedia.org/wiki/Sequence_diagram) w([Example:http](https://www.eventhelix.com/networking/http_sequence_diagram.pdf))
+
+## API
+* JSON API is the easiet API - [follow the rules](https://jsonapi.org/format/#)
+* Requesting - use Python-[requests](https://docs.python-requests.org/en/latest/)
+
+## Database / DataWarehouse
   * [Pandas CheatSheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
   * [sqlAlchemy usage](https://www.pythonsheets.com/notes/python-sqlalchemy.html)
   * [Pandas cheatsheet](https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf)
@@ -37,7 +41,11 @@
   * Be aware of [feature casualties of large databases](https://web.dev/streams/)
   * [Data Science - Hierarchy of Needs](https://hackernoon.com/the-ai-hierarchy-of-needs-18f111fcc007)
   * [Metabase](https://www.metabase.com/)
-* **Security**
+
+# Security
+  * Standards
+    * [nist]()
+    *
   * Audit [security](https://hangar.tech/posts/our-dsq/)
   * Understand [SSH tunnels](https://robotmoon.com/ssh-tunnels/)
   * [Anticipatory Failure Determination](https://historyofyesterday.com/suppose-i-wanted-to-kill-a-lot-of-pilots-f126bbc756fa)
