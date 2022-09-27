@@ -2,7 +2,7 @@
 
 This guide focuses on designing, developing ~~and delivering~~ Data-Processing Sytems, written primarily in python, deploying to Linux servers, optionally communicating with external interfaces (APIs or DBs). The repo is actively being updated; _bookmark_ :bookmark: it, leave a _Star_ :star: or _Watch_ :eye: the repo.
 
-* [repo roadmap](#repo-roadmap)
+* [repo roadmap](#roadmap)
 * [gitmoji](#gitmoji-reference)
 * [planning](project_planning_contracting.md)
 * ideation / design (coming soon)
