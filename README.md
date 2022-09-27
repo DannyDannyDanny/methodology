@@ -18,17 +18,14 @@ This guide focuses on designing, developing ~~and delivering~~ Data-Processing S
 * [scripts](scripts/)
   * [emoji_shortlist](scripts/emoji_shortlist.py)
 
-## Repo Roadmap
+## roadmap
 
 * [ ] 2022Q3: Consultancy & Delivery Methodology
   * [ ] [Planning](project_planning_contracting.md)
-  * [ ] ~~Contract clauses~~
-  * [ ] ~~Project phases~~
-  * [ ] ~~Deliverables~~
-  * [ ] taiga.ai learning lessons
+  * [ ] taiga.ai learning lessons ~~Contract clauses, Project phases, Deliverables~~
 * [ ] 2023Q1: Data Management Methodology
 
-## Gitmoji reference
+## `git`moji reference
 
 Use the format `:gitmoji: <commit message>` in your commit messages. Only proper nouns, CamelCase and class names should have uppercases letters. ~~Avoid using multiple gitmojis.~~ Use several gitmojis if it makes sense.
 
@@ -57,3 +54,19 @@ Missing a gitmoji? Take a look at [word emojis with short shortcodes](emojis.md)
 made by this script [this script](scripts/emoji_shortlist.py)
 Submit an [issue](https://github.com/DannyDannyDanny/methodology/issues)
 (or [Pull Request](https://github.com/DannyDannyDanny/methodology/pulls)).
+
+## `git` version control
+* repo naming conventions
+  * lowercase
+  * dashes not underscores
+  * name pattern: `<prefix>_<suffix>`
+    * `<prefix>` i.e. drug, condition, indication, area (reserach, clinical)
+    * `<suffix>` i.e. project name, tool, exploration name
+* init repo with README
+  * must have sections: purpose, usage and stakeholders sections
+  * good to have: install, contributing
+* git rules for simple development
+  * no branching
+  * no rebasing
+  * no public repos
+  * no data in repo
