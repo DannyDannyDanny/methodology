@@ -2,3 +2,5 @@ env/
 
 emojis.pkl
 emojis.json
+
+**/.ipynb_checkpoints/
