@@ -41,7 +41,7 @@ Use several gitmojis if it makes sense.
 | :zap:         | `:zap:`         | improve performance / coverage / profiling                                |
 | :bug:         | `:bug:`         | bug fixing                                                                |
 | :truck:       | `:truck:`       | moving / renaming                                                         |
-| :recycle:     | `:recycle:`     | CI/CD, pre-commit hooks, automated tests and environments |
+| :recycle:     | `:recycle:`     | CI/CD, pre-commit hooks, auto-tests and environments                      |
 | :boom:        | `:boom:`        | work in progress / breaking changes                                       |
 | :memo:        | `:memo:`        | doc / logging / verbosity / code comments                                 |
 | :fire:        | `:fire:`        | remove (dead) code / file                                                 |
