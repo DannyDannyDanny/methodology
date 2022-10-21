@@ -33,27 +33,27 @@ Only proper nouns, CamelCase and class names should have uppercases letters.
 Use several gitmojis if it makes sense.
 
 
-| emoji         | code            | description                                               |
-|---------------|-----------------|-----------------------------------------------------------|
-| :sparkles:    | `:sparkles:`    | add new feature / function                                |
-| :art:         | `:art:`         | refactor / type hinting / restructuring / linting         |
-| :goal_net:    | `:goal_net:`    | try/raise/handle errors or warnings                       |
-| :zap:         | `:zap:`         | improve performance / coverage / profiling                |
-| :bug:         | `:bug:`         | bug fixing                                                |
-| :truck:       | `:truck:`       | moving / renaming                                         |
-| :recycle:     | `:recycle:`     | CI/CD, pre-commit hooks, auto-tests and environments      |
-| :boom:        | `:boom:`        | work in progress / breaking changes                       |
-| :memo:        | `:memo:`        | doc / logging / verbosity / code comments                 |
-| :fire:        | `:fire:`        | remove (dead) code / file                                 |
-| :alien:       | `:alien:`       | changes related to APIs, Databases, Network etc.          |
-| :key:         | `:key:`         | security, user access, roles                              |
-| :tada:        | `:tada:`        | clean / transform / validate _data_                       |
-| :eyes:        | `:eyes:`        | UI / UX / CLI / visualizations (previously :lipstick:)    |
-| :brain:       | `:brain:`       | statistical modelling, training and prediction            |
-| :pushpin:     | `:pushpin:`     | dependency and environment versioning                     |
-| :whale:       | `:whale:`       | virtualization, containerization and architecture changes |
-| :see_no_evil: | `:see_no_evil:` | changes to `.*ignore` or local files                      |
-| :mag:         | `:mag:`         | PR-review change-requests                                 |
+| emoji         | code            | description                                            |
+|---------------|-----------------|--------------------------------------------------------|
+| :sparkles:    | `:sparkles:`    | add new feature / function                             |
+| :art:         | `:art:`         | refactor / type hinting / restructuring / linting      |
+| :goal_net:    | `:goal_net:`    | try/raise/handle errors or warnings                    |
+| :zap:         | `:zap:`         | improve performance / coverage / profiling             |
+| :bug:         | `:bug:`         | bug fixing                                             |
+| :truck:       | `:truck:`       | moving / renaming                                      |
+| :recycle:     | `:recycle:`     | CI/CD, pre-commit hooks, auto-tests and environments   |
+| :boom:        | `:boom:`        | work in progress / breaking changes                    |
+| :memo:        | `:memo:`        | doc / logging / verbosity / code comments              |
+| :fire:        | `:fire:`        | remove (dead) code / file                              |
+| :alien:       | `:alien:`       | changes related to APIs, Databases, Network etc.       |
+| :key:         | `:key:`         | security, user access, roles                           |
+| :tada:        | `:tada:`        | clean / transform / validate _data_                    |
+| :eyes:        | `:eyes:`        | UI / UX / CLI / visualizations (previously :lipstick:) |
+| :brain:       | `:brain:`       | statistical modelling, training and prediction         |
+| :pushpin:     | `:pushpin:`     | dependency and environment versioning                  |
+| :whale:       | `:whale:`       | docker, VMs, containerization and architecture changes |
+| :see_no_evil: | `:see_no_evil:` | changes to `.*ignore` or local files                   |
+| :mag:         | `:mag:`         | PR-review change-requests                              |
 
 Missing a gitmoji? Take a look at [word emojis with short shortcodes](emojis.md)
 made by this script [this script](scripts/emoji_shortlist.py)
