@@ -17,6 +17,7 @@
   * Setup [Travis-CI build testing](https://docs.travis-ci.com/user/customizing-the-build/#building-specific-branches)
   * Add an [`.EditorConfig` file](https://editorconfig.org/)
   * Add [git commit template](https://gist.github.com/lisawolderiksen/a7b99d94c92c6671181611be1641c733#file-git-commit-template-md)
+  * Branching strategy: small teams might want to adopt [trunk based development](https://trunkbaseddevelopment.com/)
 * **Documentation**
   * Your repo should have a one-liner for isntallation andd running: (docker-compose.yml + `doco up`)
 
