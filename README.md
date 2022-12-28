@@ -13,6 +13,7 @@ This guide focuses on designing, developing ~~and delivering~~ Data-Processing S
 * Deployment (coming soon)
 * Launch (coming soon)
 * Maintenance (coming soon)
+* [cloud engineering](cloud-engineering.md)
 * [data management](data_storage.md)
 * [tools](tools.md) :construction:
 * [philosophy](philosophy.md)
