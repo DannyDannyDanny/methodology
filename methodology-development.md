@@ -78,6 +78,9 @@ git log --follow -- filename
 
 # search code in all history
 git log -S "some_old_varname" --oneline --all
+
+# files changed on your branch compared to origin/main i.e. **files changed** in a Github PR
+git diff --name-only origin/main
 ```
 
 ### Submitting multiple PRs
