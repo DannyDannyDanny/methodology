@@ -28,8 +28,8 @@ def get_df(query, env, use_cache=True):
     print("fetching & caching data")
     with connect(
         authenticator="externalbrowser",
-        user="dnth@lundbeck.com",
-        account=f"lundbeck-hlu{env}",
+        user="user@company.com",
+        account=f"company-{env}",
         role=role,
         warehouse=warehouse,
     ) as con:
