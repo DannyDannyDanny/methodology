@@ -1,6 +1,14 @@
 ### Development
 * Development Cycle [Agile](https://www.atlassian.com/agile/scrum/sprints)
 
+#### Backlog Refinement
+* Fibonacci Story Points: 1 2 3 5 8 13 20 40 100
+* Each Story should have an epic
+* Example Description:
+  * **Background**: Who? Why? What? How?
+  * **Expected Outcome**: measurable change from before / after completion.
+  * **Dependencies**: descriptions / approval from ABC / acceptance criteria / uaser acceotance testing
+
 ## Development Infrastructure
 * **[Setup Dev Machine](setup-dev-machine.md)**
 * **Setup Environments**
